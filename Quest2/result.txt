@@ -1,0 +1,22 @@
+ls: cannot access '/hoge': No such file or directory
+/:
+bin
+boot
+dev
+etc
+home
+lib
+lib32
+lib64
+media
+mnt
+opt
+proc
+root
+run
+sbin
+srv
+sys
+tmp
+usr
+var
