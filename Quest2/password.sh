@@ -1,7 +1,7 @@
 echo "パスワードマネージャーへようこそ！"
 while :
 do 
-  read -p "次の選択肢から入力してください(Add Password/Get Password/Exit):" select
+  read -p "次の選択肢から入力してください([A]Add Password/[G]Get Password/[E]Exit):" select
   if [ "$select" = "A" ]; then
     read -p "サービス名を入力してください：" service
     echo "サービス名:$service" >> password.txt
