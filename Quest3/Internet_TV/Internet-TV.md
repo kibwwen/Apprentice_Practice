@@ -105,7 +105,7 @@
   ＊ 外部キー制約：time_slot_id に対して、time_slots テーブルの id カラムから設定
 </details>
 <details>
-  <summary> ステップ２：データベースの構築＆データの挿入 </summary>
+  <summary>ステップ２：データベースの構築＆データの挿入</summary>
 
   ### Docker-composeによるmysqlを構築
     1.docker-compose.ymlが入ったディレクトリーに移動します。
@@ -127,7 +127,7 @@
 <details>
   <summary>ステップ３：データを抽出する</summary>
 
-  ## エピソード視聴数トップ3のエピソードタイトルと視聴数を取得するクエリ
+  ### エピソード視聴数トップ3のエピソードタイトルと視聴数を取得するクエリ
     SELECT episode_title, view_count
     From episodes
     JOIN view_counts ON episodes.id = view_counts.episode_id
