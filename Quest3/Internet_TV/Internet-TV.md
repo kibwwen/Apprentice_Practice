@@ -106,5 +106,6 @@
 </details>
 <details>
   <summary> ステップ２：データベースの構築＆データの挿入 </summary>
+  ### Docker-composeによる構築
 
 </details>
