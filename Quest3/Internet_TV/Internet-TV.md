@@ -8,7 +8,7 @@
   | id | BIGINT(20) | | PRIMARY | | YES |
   | user_name | VARCHAR(100) | | | | |
   | user_email | VARCHAR(100) | | INDEX | |
-  | user_password| TINTINT(64) | | | | |
+  | user_password| CHAR(64) | | | | |
 
   <br>
 
@@ -25,10 +25,18 @@
   | :---: | :---: | :---: | :---: | :---: | :---: |
   | id | BIGINT(20) | | PRIMARY | | YES |
   | channel_id | BIGINT(20) | | INDEX | | |
-  | start_time | DATETIME | | | | |
-  | end_time | DATETIME | | | | |
+  | start_time | TIME | | | | |
+  | end_time | TIME | | | | |
 
   ＊ 外部キー制約：channel_id に対して、channels テーブルの id カラムから設定
+
+  <br>
+
+  テーブル：genres
+  | カラム名 | データ型 | NULL | キー | 初期値 | AUTO INCREMENT |
+  | :---: | :---: | :---: | :---: | :---: | :---: |
+  | id | BIGINT(20) | | PRIMARY | | YES |
+  | name | VARCHAR(100) | | | | |
 
   <br>
 
@@ -36,9 +44,9 @@
   | カラム名 | データ型 | NULL | キー | 初期値 | AUTO INCREMENT |
   | :---: | :---: | :---: | :---: | :---: | :---: |
   | id | BIGINT(20) | | PRIMARY | | YES |
-  | program_title | VARCHAR(100) | | | | |
-  | program_description | TEXT | | | | |
-  | genre_id | VARCHAR(100) | | INDEX | | |
+  | title | VARCHAR(100) | | | | |
+  | description | TEXT | | | | |
+  | genre_id | BIGINT(20) | | INDEX | | |
 
   <br>
 
@@ -60,20 +68,12 @@
   | season_id | BIGINT(20) | | INDEX | | |
   | episode_number | INT(11) | | | | |
   | episode_title | VARCHAR(100) | | | | |
-  | episode_duration | TEXT | | | | |
+  | episode_description | TEXT | | | | |
   | video_duration | INT(11) | | | | |
   | release_date | DATE | | | | |
 
   ＊ 外部キー制約：season_id に対して、seasons テーブルの id カラムから設定
   
-  <br>
-
-  テーブル：genres
-  | カラム名 | データ型 | NULL | キー | 初期値 | AUTO INCREMENT |
-  | :---: | :---: | :---: | :---: | :---: | :---: |
-  | id | BIGINT(20) | | PRIMARY | | YES |
-  | name | VARCHAR(100) | | | | |
-
   <br>
 
   テーブル：program_genres
