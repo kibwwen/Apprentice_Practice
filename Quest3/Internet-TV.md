@@ -38,7 +38,7 @@
   | id | BIGINT(20) | | PRIMARY | | YES |
   | program_title | VARCHAR(100) | | | | |
   | program_description | TEXT | | | | |
-  | genre | VARCHAR(100) | | INDEX | | |
+  | genre_id | VARCHAR(100) | | INDEX | | |
 
   <br>
 
@@ -72,7 +72,7 @@
   | カラム名 | データ型 | NULL | キー | 初期値 | AUTO INCREMENT |
   | :---: | :---: | :---: | :---: | :---: | :---: |
   | id | BIGINT(20) | | PRIMARY | | YES |
-  | genre_name | VARCHAR(100) | | | | |
+  | name | VARCHAR(100) | | | | |
 
   <br>
 
