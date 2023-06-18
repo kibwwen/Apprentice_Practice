@@ -1,0 +1,2008 @@
+  [1m[35m (21.7ms)[0m  [1m[35mCREATE DATABASE `app_development` DEFAULT CHARACTER SET `utf8mb4`[0m
+  [1m[35m (10.0ms)[0m  [1m[35mCREATE DATABASE `app_test` DEFAULT CHARACTER SET `utf8mb4`[0m
+Started GET "/" for 172.20.0.1 at 2023-06-16 12:57:49 +0000
+  
+ActiveRecord::NoDatabaseError (We could not find your database: app_development. Which can be found in the database configuration file located at config/database.yml.
+
+To resolve this issue:
+
+- Did you create the database for this app, or delete it? You may need to create your database.
+- Has the database name changed? Check your database.yml config has the correct database name.
+
+To create your database, run:
+
+        bin/rails db:create
+):
+  
+activerecord (7.0.5) lib/active_record/connection_adapters/mysql2_adapter.rb:47:in `rescue in new_client'
+activerecord (7.0.5) lib/active_record/connection_adapters/mysql2_adapter.rb:43:in `new_client'
+activerecord (7.0.5) lib/active_record/connection_adapters/mysql2_adapter.rb:23:in `mysql2_connection'
+activerecord (7.0.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:656:in `public_send'
+activerecord (7.0.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:656:in `new_connection'
+activerecord (7.0.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:700:in `checkout_new_connection'
+activerecord (7.0.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:679:in `try_to_checkout_new_connection'
+activerecord (7.0.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:640:in `acquire_connection'
+activerecord (7.0.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:341:in `checkout'
+activerecord (7.0.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:181:in `connection'
+activerecord (7.0.5) lib/active_record/connection_adapters/abstract/connection_handler.rb:211:in `retrieve_connection'
+activerecord (7.0.5) lib/active_record/connection_handling.rb:313:in `retrieve_connection'
+activerecord (7.0.5) lib/active_record/connection_handling.rb:280:in `connection'
+activerecord (7.0.5) lib/active_record/migration.rb:613:in `connection'
+activerecord (7.0.5) lib/active_record/migration.rb:608:in `build_watcher'
+activerecord (7.0.5) lib/active_record/migration.rb:590:in `block in call'
+activerecord (7.0.5) lib/active_record/migration.rb:589:in `synchronize'
+activerecord (7.0.5) lib/active_record/migration.rb:589:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.5) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.5) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/show_exceptions.rb:26:in `call'
+railties (7.0.5) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.5) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.5) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (7.0.5) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (7.0.5) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (7.0.5) lib/rails/rack/logger.rb:25:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.7) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.5) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+actionpack (7.0.5) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+actionpack (7.0.5) lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.7) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/host_authorization.rb:137:in `call'
+railties (7.0.5) lib/rails/engine.rb:530:in `call'
+puma (5.6.5) lib/puma/configuration.rb:252:in `call'
+puma (5.6.5) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.5) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.5) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.5) lib/puma/server.rb:443:in `process_client'
+puma (5.6.5) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/favicon.ico" for 172.20.0.1 at 2023-06-16 12:57:49 +0000
+  
+ActiveRecord::NoDatabaseError (We could not find your database: app_development. Which can be found in the database configuration file located at config/database.yml.
+
+To resolve this issue:
+
+- Did you create the database for this app, or delete it? You may need to create your database.
+- Has the database name changed? Check your database.yml config has the correct database name.
+
+To create your database, run:
+
+        bin/rails db:create
+):
+  
+activerecord (7.0.5) lib/active_record/connection_adapters/mysql2_adapter.rb:47:in `rescue in new_client'
+activerecord (7.0.5) lib/active_record/connection_adapters/mysql2_adapter.rb:43:in `new_client'
+activerecord (7.0.5) lib/active_record/connection_adapters/mysql2_adapter.rb:23:in `mysql2_connection'
+activerecord (7.0.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:656:in `public_send'
+activerecord (7.0.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:656:in `new_connection'
+activerecord (7.0.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:700:in `checkout_new_connection'
+activerecord (7.0.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:679:in `try_to_checkout_new_connection'
+activerecord (7.0.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:640:in `acquire_connection'
+activerecord (7.0.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:341:in `checkout'
+activerecord (7.0.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:181:in `connection'
+activerecord (7.0.5) lib/active_record/connection_adapters/abstract/connection_handler.rb:211:in `retrieve_connection'
+activerecord (7.0.5) lib/active_record/connection_handling.rb:313:in `retrieve_connection'
+activerecord (7.0.5) lib/active_record/connection_handling.rb:280:in `connection'
+activerecord (7.0.5) lib/active_record/migration.rb:613:in `connection'
+activerecord (7.0.5) lib/active_record/migration.rb:608:in `build_watcher'
+activerecord (7.0.5) lib/active_record/migration.rb:590:in `block in call'
+activerecord (7.0.5) lib/active_record/migration.rb:589:in `synchronize'
+activerecord (7.0.5) lib/active_record/migration.rb:589:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.5) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.5) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/show_exceptions.rb:26:in `call'
+railties (7.0.5) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.5) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.5) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (7.0.5) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (7.0.5) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (7.0.5) lib/rails/rack/logger.rb:25:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.7) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.5) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+actionpack (7.0.5) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+actionpack (7.0.5) lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.7) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/host_authorization.rb:137:in `call'
+railties (7.0.5) lib/rails/engine.rb:530:in `call'
+puma (5.6.5) lib/puma/configuration.rb:252:in `call'
+puma (5.6.5) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.5) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.5) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.5) lib/puma/server.rb:443:in `process_client'
+puma (5.6.5) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/" for 172.20.0.1 at 2023-06-16 12:58:16 +0000
+  
+ActiveRecord::NoDatabaseError (We could not find your database: app_development. Which can be found in the database configuration file located at config/database.yml.
+
+To resolve this issue:
+
+- Did you create the database for this app, or delete it? You may need to create your database.
+- Has the database name changed? Check your database.yml config has the correct database name.
+
+To create your database, run:
+
+        bin/rails db:create
+):
+  
+activerecord (7.0.5) lib/active_record/connection_adapters/mysql2_adapter.rb:47:in `rescue in new_client'
+activerecord (7.0.5) lib/active_record/connection_adapters/mysql2_adapter.rb:43:in `new_client'
+activerecord (7.0.5) lib/active_record/connection_adapters/mysql2_adapter.rb:23:in `mysql2_connection'
+activerecord (7.0.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:656:in `public_send'
+activerecord (7.0.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:656:in `new_connection'
+activerecord (7.0.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:700:in `checkout_new_connection'
+activerecord (7.0.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:679:in `try_to_checkout_new_connection'
+activerecord (7.0.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:640:in `acquire_connection'
+activerecord (7.0.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:341:in `checkout'
+activerecord (7.0.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:181:in `connection'
+activerecord (7.0.5) lib/active_record/connection_adapters/abstract/connection_handler.rb:211:in `retrieve_connection'
+activerecord (7.0.5) lib/active_record/connection_handling.rb:313:in `retrieve_connection'
+activerecord (7.0.5) lib/active_record/connection_handling.rb:280:in `connection'
+activerecord (7.0.5) lib/active_record/migration.rb:613:in `connection'
+activerecord (7.0.5) lib/active_record/migration.rb:608:in `build_watcher'
+activerecord (7.0.5) lib/active_record/migration.rb:590:in `block in call'
+activerecord (7.0.5) lib/active_record/migration.rb:589:in `synchronize'
+activerecord (7.0.5) lib/active_record/migration.rb:589:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.5) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.5) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/show_exceptions.rb:26:in `call'
+railties (7.0.5) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.5) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.5) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (7.0.5) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (7.0.5) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (7.0.5) lib/rails/rack/logger.rb:25:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.7) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.5) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+actionpack (7.0.5) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+actionpack (7.0.5) lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.7) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/host_authorization.rb:137:in `call'
+railties (7.0.5) lib/rails/engine.rb:530:in `call'
+puma (5.6.5) lib/puma/configuration.rb:252:in `call'
+puma (5.6.5) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.5) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.5) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.5) lib/puma/server.rb:443:in `process_client'
+puma (5.6.5) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/" for 172.21.0.1 at 2023-06-16 13:05:15 +0000
+  
+ActiveRecord::NoDatabaseError (We could not find your database: app_development. Which can be found in the database configuration file located at config/database.yml.
+
+To resolve this issue:
+
+- Did you create the database for this app, or delete it? You may need to create your database.
+- Has the database name changed? Check your database.yml config has the correct database name.
+
+To create your database, run:
+
+        bin/rails db:create
+):
+  
+activerecord (7.0.5) lib/active_record/connection_adapters/mysql2_adapter.rb:47:in `rescue in new_client'
+activerecord (7.0.5) lib/active_record/connection_adapters/mysql2_adapter.rb:43:in `new_client'
+activerecord (7.0.5) lib/active_record/connection_adapters/mysql2_adapter.rb:23:in `mysql2_connection'
+activerecord (7.0.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:656:in `public_send'
+activerecord (7.0.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:656:in `new_connection'
+activerecord (7.0.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:700:in `checkout_new_connection'
+activerecord (7.0.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:679:in `try_to_checkout_new_connection'
+activerecord (7.0.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:640:in `acquire_connection'
+activerecord (7.0.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:341:in `checkout'
+activerecord (7.0.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:181:in `connection'
+activerecord (7.0.5) lib/active_record/connection_adapters/abstract/connection_handler.rb:211:in `retrieve_connection'
+activerecord (7.0.5) lib/active_record/connection_handling.rb:313:in `retrieve_connection'
+activerecord (7.0.5) lib/active_record/connection_handling.rb:280:in `connection'
+activerecord (7.0.5) lib/active_record/migration.rb:613:in `connection'
+activerecord (7.0.5) lib/active_record/migration.rb:608:in `build_watcher'
+activerecord (7.0.5) lib/active_record/migration.rb:590:in `block in call'
+activerecord (7.0.5) lib/active_record/migration.rb:589:in `synchronize'
+activerecord (7.0.5) lib/active_record/migration.rb:589:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.5) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.5) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/show_exceptions.rb:26:in `call'
+railties (7.0.5) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.5) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.5) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (7.0.5) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (7.0.5) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (7.0.5) lib/rails/rack/logger.rb:25:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.7) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.5) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+actionpack (7.0.5) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+actionpack (7.0.5) lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.7) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/host_authorization.rb:137:in `call'
+railties (7.0.5) lib/rails/engine.rb:530:in `call'
+puma (5.6.5) lib/puma/configuration.rb:252:in `call'
+puma (5.6.5) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.5) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.5) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.5) lib/puma/server.rb:443:in `process_client'
+puma (5.6.5) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/favicon.ico" for 172.21.0.1 at 2023-06-16 13:05:15 +0000
+  
+ActiveRecord::NoDatabaseError (We could not find your database: app_development. Which can be found in the database configuration file located at config/database.yml.
+
+To resolve this issue:
+
+- Did you create the database for this app, or delete it? You may need to create your database.
+- Has the database name changed? Check your database.yml config has the correct database name.
+
+To create your database, run:
+
+        bin/rails db:create
+):
+  
+activerecord (7.0.5) lib/active_record/connection_adapters/mysql2_adapter.rb:47:in `rescue in new_client'
+activerecord (7.0.5) lib/active_record/connection_adapters/mysql2_adapter.rb:43:in `new_client'
+activerecord (7.0.5) lib/active_record/connection_adapters/mysql2_adapter.rb:23:in `mysql2_connection'
+activerecord (7.0.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:656:in `public_send'
+activerecord (7.0.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:656:in `new_connection'
+activerecord (7.0.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:700:in `checkout_new_connection'
+activerecord (7.0.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:679:in `try_to_checkout_new_connection'
+activerecord (7.0.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:640:in `acquire_connection'
+activerecord (7.0.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:341:in `checkout'
+activerecord (7.0.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:181:in `connection'
+activerecord (7.0.5) lib/active_record/connection_adapters/abstract/connection_handler.rb:211:in `retrieve_connection'
+activerecord (7.0.5) lib/active_record/connection_handling.rb:313:in `retrieve_connection'
+activerecord (7.0.5) lib/active_record/connection_handling.rb:280:in `connection'
+activerecord (7.0.5) lib/active_record/migration.rb:613:in `connection'
+activerecord (7.0.5) lib/active_record/migration.rb:608:in `build_watcher'
+activerecord (7.0.5) lib/active_record/migration.rb:590:in `block in call'
+activerecord (7.0.5) lib/active_record/migration.rb:589:in `synchronize'
+activerecord (7.0.5) lib/active_record/migration.rb:589:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.5) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.5) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/show_exceptions.rb:26:in `call'
+railties (7.0.5) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.5) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.5) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (7.0.5) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (7.0.5) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (7.0.5) lib/rails/rack/logger.rb:25:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.7) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.5) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+actionpack (7.0.5) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+actionpack (7.0.5) lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.7) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/host_authorization.rb:137:in `call'
+railties (7.0.5) lib/rails/engine.rb:530:in `call'
+puma (5.6.5) lib/puma/configuration.rb:252:in `call'
+puma (5.6.5) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.5) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.5) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.5) lib/puma/server.rb:443:in `process_client'
+puma (5.6.5) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+  [1m[35m (25.1ms)[0m  [1m[35mCREATE DATABASE `app_development` DEFAULT CHARACTER SET `utf8mb4`[0m
+  [1m[35m (14.7ms)[0m  [1m[35mCREATE DATABASE `app_test` DEFAULT CHARACTER SET `utf8mb4`[0m
+Started GET "/" for 172.22.0.1 at 2023-06-16 13:13:46 +0000
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/local/bundle/gems/railties-7.0.5/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/bundle/gems/railties-7.0.5/lib/rails/templates/rails/welcome/index.html.erb (Duration: 2.1ms | Allocations: 489)
+Completed 200 OK in 12ms (Views: 4.6ms | ActiveRecord: 0.0ms | Allocations: 4659)
+
+
+Started GET "/" for 172.22.0.1 at 2023-06-16 13:17:10 +0000
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/local/bundle/gems/railties-7.0.5/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/bundle/gems/railties-7.0.5/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.9ms | Allocations: 272)
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.0ms | Allocations: 872)
+
+
+  [1m[35m (40.4ms)[0m  [1m[35mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL PRIMARY KEY)[0m
+  [1m[35m (38.8ms)[0m  [1m[35mCREATE TABLE `ar_internal_metadata` (`key` varchar(255) NOT NULL PRIMARY KEY, `value` varchar(255), `created_at` datetime(6) NOT NULL, `updated_at` datetime(6) NOT NULL)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT GET_LOCK('5277929974492897470', 0)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (6.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Migrating to CreateArticles (20230616140446)
+  [1m[35m (34.2ms)[0m  [1m[35mCREATE TABLE `articles` (`id` bigint NOT NULL AUTO_INCREMENT PRIMARY KEY, `slug` varchar(255), `title` varchar(255), `description` text, `body` text, `created_at` datetime(6) NOT NULL, `updated_at` datetime(6) NOT NULL)[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.3ms)[0m  [1m[32mINSERT INTO `schema_migrations` (`version`) VALUES ('20230616140446')[0m
+  [1m[36mTRANSACTION (10.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.6ms)[0m  [1m[34mSELECT `ar_internal_metadata`.* FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' LIMIT 1[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.3ms)[0m  [1m[32mINSERT INTO `ar_internal_metadata` (`key`, `value`, `created_at`, `updated_at`) VALUES ('environment', 'development', '2023-06-16 14:07:22.649852', '2023-06-16 14:07:22.649852')[0m
+  [1m[36mTRANSACTION (6.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT RELEASE_LOCK('5277929974492897470')[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.4ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mArticle Create (0.4ms)[0m  [1m[32mINSERT INTO `articles` (`slug`, `title`, `description`, `body`, `created_at`, `updated_at`) VALUES ('how-to-train-your-dragon', 'how to train your dragon', 'ever wonder how?', 'It takes a Jacobian', '2023-06-16 14:16:49.396751', '2023-06-16 14:16:49.396751')[0m
+  [1m[36mTRANSACTION (11.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mArticle Load (0.7ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+Started GET "/" for 172.23.0.1 at 2023-06-16 14:50:50 +0000
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/local/bundle/gems/railties-7.0.5/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/bundle/gems/railties-7.0.5/lib/rails/templates/rails/welcome/index.html.erb (Duration: 1.8ms | Allocations: 489)
+Completed 200 OK in 11ms (Views: 4.1ms | ActiveRecord: 0.0ms | Allocations: 4059)
+
+
+Started GET "/" for 172.23.0.1 at 2023-06-16 15:03:31 +0000
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/local/bundle/gems/railties-7.0.5/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/bundle/gems/railties-7.0.5/lib/rails/templates/rails/welcome/index.html.erb (Duration: 1.1ms | Allocations: 272)
+Completed 200 OK in 4ms (Views: 2.8ms | Allocations: 872)
+
+
+Started GET "/articles" for 172.23.0.1 at 2023-06-16 15:03:49 +0000
+  
+SyntaxError (/app/app/controllers/articles_controller.rb:21: syntax error, unexpected end-of-input):
+  
+app/controllers/articles_controller.rb:21: syntax error, unexpected end-of-input
+app/controllers/articles_controller.rb:21: syntax error, unexpected end-of-input
+Started GET "/favicon.ico" for 172.23.0.1 at 2023-06-16 15:03:49 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+Started GET "/articles" for 172.23.0.1 at 2023-06-16 15:04:22 +0000
+  
+AbstractController::ActionNotFound (The action 'index' could not be found for ArticlesController):
+  
+actionpack (7.0.5) lib/abstract_controller/base.rb:146:in `process'
+actionpack (7.0.5) lib/action_controller/metal.rb:188:in `dispatch'
+actionpack (7.0.5) lib/action_controller/metal.rb:251:in `dispatch'
+actionpack (7.0.5) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (7.0.5) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (7.0.5) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (7.0.5) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (7.0.5) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (7.0.5) lib/action_dispatch/routing/route_set.rb:852:in `call'
+rack (2.2.7) lib/rack/etag.rb:27:in `call'
+rack (2.2.7) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.7) lib/rack/head.rb:12:in `call'
+activerecord (7.0.5) lib/active_record/migration.rb:603:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.5) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.5) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/show_exceptions.rb:26:in `call'
+railties (7.0.5) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.5) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.5) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (7.0.5) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (7.0.5) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (7.0.5) lib/rails/rack/logger.rb:25:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.7) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.5) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+actionpack (7.0.5) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+actionpack (7.0.5) lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.7) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/host_authorization.rb:137:in `call'
+railties (7.0.5) lib/rails/engine.rb:530:in `call'
+puma (5.6.5) lib/puma/configuration.rb:252:in `call'
+puma (5.6.5) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.5) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.5) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.5) lib/puma/server.rb:443:in `process_client'
+puma (5.6.5) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/articles" for 172.23.0.1 at 2023-06-16 15:05:03 +0000
+Processing by ArticlesController#index as HTML
+Completed 204 No Content in 0ms (Allocations: 130)
+
+
+Started GET "/articles" for 172.23.0.1 at 2023-06-16 15:05:04 +0000
+Processing by ArticlesController#index as HTML
+Completed 204 No Content in 0ms (Allocations: 31)
+
+
+Started GET "/articles" for 172.23.0.1 at 2023-06-16 15:10:07 +0000
+Processing by ArticlesController#index as HTML
+Completed 204 No Content in 0ms (Allocations: 29)
+
+
+Started GET "/articles" for 172.23.0.1 at 2023-06-16 15:10:08 +0000
+Processing by ArticlesController#index as HTML
+Completed 204 No Content in 0ms (Allocations: 29)
+
+
+Started GET "/" for 172.23.0.1 at 2023-06-16 15:10:28 +0000
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/local/bundle/gems/railties-7.0.5/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/bundle/gems/railties-7.0.5/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.1ms | Allocations: 14)
+Completed 200 OK in 1ms (Views: 0.9ms | Allocations: 212)
+
+
+Started GET "/articles" for 172.23.0.1 at 2023-06-16 15:20:09 +0000
+Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+  ↳ app/controllers/articles_controller.rb:6:in `index'
+Completed 200 OK in 17ms (Views: 15.7ms | ActiveRecord: 4.9ms | Allocations: 7169)
+
+
+Started GET "/" for 172.23.0.1 at 2023-06-16 15:31:27 +0000
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/local/bundle/gems/railties-7.0.5/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/bundle/gems/railties-7.0.5/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.1ms | Allocations: 13)
+Completed 200 OK in 1ms (Views: 0.5ms | Allocations: 192)
+
+
+Started GET "/index" for 172.23.0.1 at 2023-06-16 15:31:36 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/index"):
+  
+Started GET "/" for 172.23.0.1 at 2023-06-16 15:31:56 +0000
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/local/bundle/gems/railties-7.0.5/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/bundle/gems/railties-7.0.5/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.1ms | Allocations: 13)
+Completed 200 OK in 1ms (Views: 0.6ms | Allocations: 191)
+
+
+Started GET "/articles" for 172.23.0.1 at 2023-06-16 15:32:09 +0000
+Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (0.9ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+  ↳ app/controllers/articles_controller.rb:6:in `index'
+Completed 200 OK in 4ms (Views: 4.2ms | ActiveRecord: 1.2ms | Allocations: 955)
+
+
+Started GET "/" for 172.23.0.1 at 2023-06-16 15:44:23 +0000
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/local/bundle/gems/railties-7.0.5/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/bundle/gems/railties-7.0.5/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.2ms | Allocations: 13)
+Completed 200 OK in 1ms (Views: 0.9ms | Allocations: 192)
+
+
+Started GET "/" for 172.23.0.1 at 2023-06-16 15:48:46 +0000
+Processing by Rails::WelcomeController#index as */*
+  Rendering /usr/local/bundle/gems/railties-7.0.5/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/bundle/gems/railties-7.0.5/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.1ms | Allocations: 13)
+Completed 200 OK in 1ms (Views: 0.6ms | Allocations: 200)
+
+
+Started GET "/" for 172.23.0.1 at 2023-06-16 15:50:01 +0000
+Processing by Rails::WelcomeController#index as */*
+  Rendering /usr/local/bundle/gems/railties-7.0.5/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/bundle/gems/railties-7.0.5/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.1ms | Allocations: 13)
+Completed 200 OK in 1ms (Views: 0.5ms | Allocations: 198)
+
+
+Started GET "/articles" for 172.23.0.1 at 2023-06-16 15:50:28 +0000
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.5ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+  ↳ app/controllers/articles_controller.rb:6:in `index'
+Completed 200 OK in 5ms (Views: 4.6ms | ActiveRecord: 0.8ms | Allocations: 960)
+
+
+Started GET "/articles" for 172.23.0.1 at 2023-06-16 15:51:19 +0000
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+  ↳ app/controllers/articles_controller.rb:6:in `index'
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.4ms | Allocations: 846)
+
+
+Started GET "/" for 172.23.0.1 at 2023-06-16 15:52:46 +0000
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/local/bundle/gems/railties-7.0.5/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/bundle/gems/railties-7.0.5/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.1ms | Allocations: 13)
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.0ms | Allocations: 202)
+
+
+Started OPTIONS "/" for 172.23.0.1 at 2023-06-16 15:55:07 +0000
+  
+ActionController::RoutingError (No route matches [OPTIONS] "/"):
+  
+Started OPTIONS "/" for 172.23.0.1 at 2023-06-16 15:55:11 +0000
+  
+ActionController::RoutingError (No route matches [OPTIONS] "/"):
+  
+Started OPTIONS "/articles" for 172.23.0.1 at 2023-06-16 15:55:26 +0000
+  
+ActionController::RoutingError (No route matches [OPTIONS] "/articles"):
+  
+Started GET "/" for 172.23.0.1 at 2023-06-16 16:03:45 +0000
+Processing by Rails::WelcomeController#index as */*
+  Rendering /usr/local/bundle/gems/railties-7.0.5/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/bundle/gems/railties-7.0.5/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.1ms | Allocations: 13)
+Completed 200 OK in 1ms (Views: 0.7ms | Allocations: 198)
+
+
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT GET_LOCK('5277929974492897470', 0)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.4ms)[0m  [1m[34mSELECT `ar_internal_metadata`.* FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT RELEASE_LOCK('5277929974492897470')[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mArticle Load (0.5ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+  [1m[36mArticle Load (0.6ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` WHERE `articles`.`id` = 1 LIMIT 1[0m
+  [1m[36mArticle Load (1.4ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` WHERE `articles`.`id` = 1 LIMIT 1[0m
+  [1m[36mTRANSACTION (1.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mArticle Destroy (1.6ms)[0m  [1m[31mDELETE FROM `articles` WHERE `articles`.`id` = 1[0m
+  [1m[36mTRANSACTION (1.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mArticle Load (1.5ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+Started OPTIONS "/articles" for 172.23.0.1 at 2023-06-16 16:11:07 +0000
+  
+ActionController::RoutingError (No route matches [OPTIONS] "/articles"):
+  
+Started OPTIONS "/articles" for 172.23.0.1 at 2023-06-16 16:11:08 +0000
+  
+ActionController::RoutingError (No route matches [OPTIONS] "/articles"):
+  
+Started OPTIONS "/" for 172.23.0.1 at 2023-06-16 16:25:41 +0000
+  
+ActionController::RoutingError (No route matches [OPTIONS] "/"):
+  
+Started OPTIONS "/" for 172.23.0.1 at 2023-06-16 16:25:42 +0000
+  
+ActionController::RoutingError (No route matches [OPTIONS] "/"):
+  
+Started OPTIONS "/" for 172.23.0.1 at 2023-06-16 16:25:43 +0000
+  
+ActionController::RoutingError (No route matches [OPTIONS] "/"):
+  
+Started OPTIONS "/" for 172.23.0.1 at 2023-06-16 16:25:48 +0000
+  
+ActionController::RoutingError (No route matches [OPTIONS] "/"):
+  
+Started OPTIONS "/" for 172.23.0.1 at 2023-06-16 16:25:50 +0000
+  
+ActionController::RoutingError (No route matches [OPTIONS] "/"):
+  
+Started GET "/" for 172.23.0.1 at 2023-06-16 16:28:02 +0000
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/local/bundle/gems/railties-7.0.5/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/bundle/gems/railties-7.0.5/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.1ms | Allocations: 13)
+Completed 200 OK in 1ms (Views: 0.5ms | Allocations: 191)
+
+
+Started GET "/articles" for 172.23.0.1 at 2023-06-16 16:28:17 +0000
+Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+  ↳ app/controllers/articles_controller.rb:6:in `index'
+Completed 200 OK in 7ms (Views: 5.7ms | ActiveRecord: 0.7ms | Allocations: 3183)
+
+
+Started GET "/" for 172.24.0.1 at 2023-06-16 16:30:01 +0000
+  [1m[36mActiveRecord::SchemaMigration Pluck (9.6ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/local/bundle/gems/railties-7.0.5/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/bundle/gems/railties-7.0.5/lib/rails/templates/rails/welcome/index.html.erb (Duration: 1.8ms | Allocations: 489)
+Completed 200 OK in 9ms (Views: 3.6ms | ActiveRecord: 0.0ms | Allocations: 4059)
+
+
+Started GET "/articles" for 172.24.0.1 at 2023-06-16 16:30:15 +0000
+Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (1.3ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+  ↳ app/controllers/articles_controller.rb:6:in `index'
+Completed 200 OK in 17ms (Views: 9.2ms | ActiveRecord: 5.7ms | Allocations: 7077)
+
+
+Started GET "/articles" for 172.24.0.1 at 2023-06-16 16:30:48 +0000
+Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (0.5ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+  ↳ app/controllers/articles_controller.rb:6:in `index'
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.5ms | Allocations: 836)
+
+
+Started GET "/articles" for 172.24.0.1 at 2023-06-16 16:30:49 +0000
+Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (0.5ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+  ↳ app/controllers/articles_controller.rb:6:in `index'
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.5ms | Allocations: 836)
+
+
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mArticle Load (1.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` WHERE `articles`.`id` = NULL LIMIT 1[0m
+  [1m[36mArticle Load (1.7ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` WHERE `articles`.`id` = 1 LIMIT 1[0m
+  [1m[36mArticle Load (0.7ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` WHERE `articles`.`id` = 1 LIMIT 1[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mArticle Destroy (0.5ms)[0m  [1m[31mDELETE FROM `articles` WHERE `articles`.`id` = 1[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mArticle Load (1.3ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+  [1m[36mArticle Load (0.7ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` WHERE `articles`.`id` = 1 LIMIT 1[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mArticle Destroy (0.6ms)[0m  [1m[31mDELETE FROM `articles` WHERE `articles`.`id` = 1[0m
+  [1m[36mTRANSACTION (25.8ms)[0m  [1m[35mCOMMIT[0m
+Started GET "/" for 172.24.0.1 at 2023-06-16 16:35:03 +0000
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/local/bundle/gems/railties-7.0.5/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/bundle/gems/railties-7.0.5/lib/rails/templates/rails/welcome/index.html.erb (Duration: 1.0ms | Allocations: 272)
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.0ms | Allocations: 873)
+
+
+Started GET "/articles" for 172.24.0.1 at 2023-06-16 16:35:05 +0000
+Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+  ↳ app/controllers/articles_controller.rb:6:in `index'
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.4ms | Allocations: 716)
+
+
+Started GET "/" for 172.24.0.1 at 2023-06-16 22:42:06 +0000
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/local/bundle/gems/railties-7.0.5/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/bundle/gems/railties-7.0.5/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.2ms | Allocations: 14)
+Completed 200 OK in 1ms (Views: 0.8ms | Allocations: 195)
+
+
+Started GET "/articles" for 172.24.0.1 at 2023-06-17 03:01:52 +0000
+  
+AbstractController::ActionNotFound (The action 'index' could not be found for ArticlesController):
+  
+actionpack (7.0.5) lib/abstract_controller/base.rb:146:in `process'
+actionpack (7.0.5) lib/action_controller/metal.rb:188:in `dispatch'
+actionpack (7.0.5) lib/action_controller/metal.rb:251:in `dispatch'
+actionpack (7.0.5) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (7.0.5) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (7.0.5) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (7.0.5) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (7.0.5) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (7.0.5) lib/action_dispatch/routing/route_set.rb:852:in `call'
+rack (2.2.7) lib/rack/etag.rb:27:in `call'
+rack (2.2.7) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.7) lib/rack/head.rb:12:in `call'
+activerecord (7.0.5) lib/active_record/migration.rb:603:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.5) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.5) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/show_exceptions.rb:26:in `call'
+railties (7.0.5) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.5) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.5) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (7.0.5) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (7.0.5) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (7.0.5) lib/rails/rack/logger.rb:25:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.7) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.5) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+actionpack (7.0.5) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+actionpack (7.0.5) lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.7) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/host_authorization.rb:137:in `call'
+railties (7.0.5) lib/rails/engine.rb:530:in `call'
+puma (5.6.5) lib/puma/configuration.rb:252:in `call'
+puma (5.6.5) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.5) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.5) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.5) lib/puma/server.rb:443:in `process_client'
+puma (5.6.5) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/" for 172.24.0.1 at 2023-06-17 03:01:56 +0000
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/local/bundle/gems/railties-7.0.5/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/bundle/gems/railties-7.0.5/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.1ms | Allocations: 13)
+Completed 200 OK in 1ms (Views: 0.8ms | Allocations: 191)
+
+
+Started GET "/create" for 172.24.0.1 at 2023-06-17 03:02:10 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/create"):
+  
+Started GET "/articles" for 172.24.0.1 at 2023-06-17 03:02:49 +0000
+  
+AbstractController::ActionNotFound (The action 'index' could not be found for ArticlesController):
+  
+actionpack (7.0.5) lib/abstract_controller/base.rb:146:in `process'
+actionpack (7.0.5) lib/action_controller/metal.rb:188:in `dispatch'
+actionpack (7.0.5) lib/action_controller/metal.rb:251:in `dispatch'
+actionpack (7.0.5) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (7.0.5) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (7.0.5) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (7.0.5) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (7.0.5) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (7.0.5) lib/action_dispatch/routing/route_set.rb:852:in `call'
+rack (2.2.7) lib/rack/etag.rb:27:in `call'
+rack (2.2.7) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.7) lib/rack/head.rb:12:in `call'
+activerecord (7.0.5) lib/active_record/migration.rb:603:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.5) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.5) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/show_exceptions.rb:26:in `call'
+railties (7.0.5) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.5) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.5) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (7.0.5) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (7.0.5) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (7.0.5) lib/rails/rack/logger.rb:25:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.7) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.5) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+actionpack (7.0.5) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+actionpack (7.0.5) lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.7) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/host_authorization.rb:137:in `call'
+railties (7.0.5) lib/rails/engine.rb:530:in `call'
+puma (5.6.5) lib/puma/configuration.rb:252:in `call'
+puma (5.6.5) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.5) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.5) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.5) lib/puma/server.rb:443:in `process_client'
+puma (5.6.5) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/articles" for 172.24.0.1 at 2023-06-17 03:02:55 +0000
+  
+AbstractController::ActionNotFound (The action 'index' could not be found for ArticlesController):
+  
+actionpack (7.0.5) lib/abstract_controller/base.rb:146:in `process'
+actionpack (7.0.5) lib/action_controller/metal.rb:188:in `dispatch'
+actionpack (7.0.5) lib/action_controller/metal.rb:251:in `dispatch'
+actionpack (7.0.5) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (7.0.5) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (7.0.5) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (7.0.5) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (7.0.5) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (7.0.5) lib/action_dispatch/routing/route_set.rb:852:in `call'
+rack (2.2.7) lib/rack/etag.rb:27:in `call'
+rack (2.2.7) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.7) lib/rack/head.rb:12:in `call'
+activerecord (7.0.5) lib/active_record/migration.rb:603:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.5) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.5) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/show_exceptions.rb:26:in `call'
+railties (7.0.5) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.5) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.5) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (7.0.5) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (7.0.5) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (7.0.5) lib/rails/rack/logger.rb:25:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.7) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.5) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+actionpack (7.0.5) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+actionpack (7.0.5) lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.7) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/host_authorization.rb:137:in `call'
+railties (7.0.5) lib/rails/engine.rb:530:in `call'
+puma (5.6.5) lib/puma/configuration.rb:252:in `call'
+puma (5.6.5) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.5) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.5) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.5) lib/puma/server.rb:443:in `process_client'
+puma (5.6.5) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/articles" for 172.24.0.1 at 2023-06-17 03:03:54 +0000
+  
+AbstractController::ActionNotFound (The action 'index' could not be found for ArticlesController):
+  
+actionpack (7.0.5) lib/abstract_controller/base.rb:146:in `process'
+actionpack (7.0.5) lib/action_controller/metal.rb:188:in `dispatch'
+actionpack (7.0.5) lib/action_controller/metal.rb:251:in `dispatch'
+actionpack (7.0.5) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (7.0.5) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (7.0.5) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (7.0.5) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (7.0.5) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (7.0.5) lib/action_dispatch/routing/route_set.rb:852:in `call'
+rack (2.2.7) lib/rack/etag.rb:27:in `call'
+rack (2.2.7) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.7) lib/rack/head.rb:12:in `call'
+activerecord (7.0.5) lib/active_record/migration.rb:603:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.5) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.5) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/show_exceptions.rb:26:in `call'
+railties (7.0.5) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.5) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.5) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (7.0.5) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (7.0.5) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (7.0.5) lib/rails/rack/logger.rb:25:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.7) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.5) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+actionpack (7.0.5) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+actionpack (7.0.5) lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.7) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/host_authorization.rb:137:in `call'
+railties (7.0.5) lib/rails/engine.rb:530:in `call'
+puma (5.6.5) lib/puma/configuration.rb:252:in `call'
+puma (5.6.5) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.5) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.5) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.5) lib/puma/server.rb:443:in `process_client'
+puma (5.6.5) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/articles" for 172.24.0.1 at 2023-06-17 03:03:58 +0000
+  
+AbstractController::ActionNotFound (The action 'index' could not be found for ArticlesController):
+  
+actionpack (7.0.5) lib/abstract_controller/base.rb:146:in `process'
+actionpack (7.0.5) lib/action_controller/metal.rb:188:in `dispatch'
+actionpack (7.0.5) lib/action_controller/metal.rb:251:in `dispatch'
+actionpack (7.0.5) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (7.0.5) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (7.0.5) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (7.0.5) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (7.0.5) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (7.0.5) lib/action_dispatch/routing/route_set.rb:852:in `call'
+rack (2.2.7) lib/rack/etag.rb:27:in `call'
+rack (2.2.7) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.7) lib/rack/head.rb:12:in `call'
+activerecord (7.0.5) lib/active_record/migration.rb:603:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.5) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.5) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/show_exceptions.rb:26:in `call'
+railties (7.0.5) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.5) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.5) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (7.0.5) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (7.0.5) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (7.0.5) lib/rails/rack/logger.rb:25:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.7) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.5) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+actionpack (7.0.5) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+actionpack (7.0.5) lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.7) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/host_authorization.rb:137:in `call'
+railties (7.0.5) lib/rails/engine.rb:530:in `call'
+puma (5.6.5) lib/puma/configuration.rb:252:in `call'
+puma (5.6.5) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.5) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.5) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.5) lib/puma/server.rb:443:in `process_client'
+puma (5.6.5) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/articles" for 172.24.0.1 at 2023-06-17 03:04:49 +0000
+Processing by ArticlesController#index as HTML
+Completed 204 No Content in 0ms (Allocations: 80)
+
+
+Started GET "/articles" for 172.24.0.1 at 2023-06-17 03:04:52 +0000
+Processing by ArticlesController#index as HTML
+Completed 204 No Content in 0ms (Allocations: 28)
+
+
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mArticle Create (0.6ms)[0m  [1m[32mINSERT INTO `articles` (`slug`, `title`, `description`, `body`, `created_at`, `updated_at`) VALUES (NULL, 'test', 'this is a test', 'this is body test', '2023-06-17 03:33:59.764666', '2023-06-17 03:33:59.764666')[0m
+  [1m[36mTRANSACTION (20.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mArticle Load (1.3ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` WHERE `articles`.`id` = 1 LIMIT 1[0m
+  [1m[36mArticle Load (0.8ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` WHERE `articles`.`id` = 2 LIMIT 1[0m
+Started GET "/" for 172.24.0.1 at 2023-06-17 03:40:28 +0000
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/local/bundle/gems/railties-7.0.5/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/bundle/gems/railties-7.0.5/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.1ms | Allocations: 13)
+Completed 200 OK in 1ms (Views: 0.3ms | Allocations: 191)
+
+
+Started GET "/index" for 172.24.0.1 at 2023-06-17 03:40:39 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/index"):
+  
+Started GET "/articles" for 172.24.0.1 at 2023-06-17 03:40:47 +0000
+Processing by ArticlesController#index as HTML
+Completed 500 Internal Server Error in 2ms (Allocations: 721)
+
+
+  
+NameError (undefined local variable or method `articles' for #<ArticlesController:0x00000000013650>):
+  
+app/controllers/articles_controller.rb:6:in `index'
+Started GET "/articles" for 172.24.0.1 at 2023-06-17 03:40:50 +0000
+Processing by ArticlesController#index as HTML
+Completed 500 Internal Server Error in 0ms (Allocations: 107)
+
+
+  
+NameError (undefined local variable or method `articles' for #<ArticlesController:0x00000000013808>):
+  
+app/controllers/articles_controller.rb:6:in `index'
+Started GET "/articles" for 172.24.0.1 at 2023-06-17 03:41:54 +0000
+Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+  ↳ app/controllers/articles_controller.rb:6:in `index'
+Completed 200 OK in 8ms (Views: 6.6ms | ActiveRecord: 0.5ms | Allocations: 3192)
+
+
+Started GET "/articles" for 172.24.0.1 at 2023-06-17 10:53:03 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/articles"):
+  
+Started GET "/articles" for 172.24.0.1 at 2023-06-17 10:53:50 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/articles"):
+  
+Started GET "/api/articles" for 172.24.0.1 at 2023-06-17 10:54:20 +0000
+Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (0.5ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+  ↳ app/controllers/articles_controller.rb:6:in `index'
+Completed 200 OK in 8ms (Views: 6.1ms | ActiveRecord: 0.9ms | Allocations: 3183)
+
+
+Started GET "/" for 172.25.0.1 at 2023-06-17 10:59:11 +0000
+  [1m[36mActiveRecord::SchemaMigration Pluck (16.6ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/local/bundle/gems/railties-7.0.5/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/bundle/gems/railties-7.0.5/lib/rails/templates/rails/welcome/index.html.erb (Duration: 2.1ms | Allocations: 489)
+Completed 200 OK in 12ms (Views: 5.1ms | ActiveRecord: 0.0ms | Allocations: 4059)
+
+
+Started GET "/api/articles" for 172.25.0.1 at 2023-06-17 10:59:43 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/api/articles"):
+  
+Started GET "/api/articles" for 172.25.0.1 at 2023-06-17 11:00:44 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/api/articles"):
+  
+Started GET "/api/articles" for 172.26.0.1 at 2023-06-17 11:06:03 +0000
+  [1m[36mActiveRecord::SchemaMigration Pluck (7.6ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (1.6ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+  ↳ app/controllers/articles_controller.rb:6:in `index'
+Completed 200 OK in 25ms (Views: 11.5ms | ActiveRecord: 6.5ms | Allocations: 9142)
+
+
+Started GET "/api/articles" for 172.27.0.1 at 2023-06-17 11:22:55 +0000
+  [1m[36mActiveRecord::SchemaMigration Pluck (11.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (1.6ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+  ↳ app/controllers/articles_controller.rb:6:in `index'
+Completed 200 OK in 24ms (Views: 10.7ms | ActiveRecord: 6.3ms | Allocations: 9150)
+
+
+Started GET "/favicon.ico" for 172.27.0.1 at 2023-06-17 11:22:55 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+Started GET "/" for 172.27.0.1 at 2023-06-17 11:23:48 +0000
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/local/bundle/gems/railties-7.0.5/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/bundle/gems/railties-7.0.5/lib/rails/templates/rails/welcome/index.html.erb (Duration: 1.0ms | Allocations: 281)
+Completed 200 OK in 6ms (Views: 2.2ms | ActiveRecord: 0.0ms | Allocations: 2045)
+
+
+Started GET "/" for 172.28.0.1 at 2023-06-17 11:29:30 +0000
+  [1m[36mActiveRecord::SchemaMigration Pluck (10.5ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/local/bundle/gems/railties-7.0.5/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/bundle/gems/railties-7.0.5/lib/rails/templates/rails/welcome/index.html.erb (Duration: 1.9ms | Allocations: 489)
+Completed 200 OK in 12ms (Views: 4.2ms | ActiveRecord: 0.0ms | Allocations: 4059)
+
+
+Started GET "/api/articles" for 172.28.0.1 at 2023-06-17 11:29:40 +0000
+Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (1.5ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+  ↳ app/controllers/articles_controller.rb:6:in `index'
+Completed 200 OK in 16ms (Views: 9.3ms | ActiveRecord: 5.1ms | Allocations: 7083)
+
+
+Started GET "/articles" for 172.29.0.1 at 2023-06-17 23:12:43 +0000
+  [1m[36mActiveRecord::SchemaMigration Pluck (16.7ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  
+ActionController::RoutingError (No route matches [GET] "/articles"):
+  
+Started GET "/api/articles" for 172.29.0.1 at 2023-06-17 23:12:55 +0000
+  
+AbstractController::ActionNotFound (The action 'index' could not be found for ArticlesController):
+  
+actionpack (7.0.5) lib/abstract_controller/base.rb:146:in `process'
+actionpack (7.0.5) lib/action_controller/metal.rb:188:in `dispatch'
+actionpack (7.0.5) lib/action_controller/metal.rb:251:in `dispatch'
+actionpack (7.0.5) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (7.0.5) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (7.0.5) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (7.0.5) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (7.0.5) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (7.0.5) lib/action_dispatch/routing/route_set.rb:852:in `call'
+rack (2.2.7) lib/rack/etag.rb:27:in `call'
+rack (2.2.7) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.7) lib/rack/head.rb:12:in `call'
+activerecord (7.0.5) lib/active_record/migration.rb:603:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.5) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.5) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/show_exceptions.rb:26:in `call'
+railties (7.0.5) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.5) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.5) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (7.0.5) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (7.0.5) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (7.0.5) lib/rails/rack/logger.rb:25:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.7) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.5) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+actionpack (7.0.5) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+actionpack (7.0.5) lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.7) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/host_authorization.rb:137:in `call'
+railties (7.0.5) lib/rails/engine.rb:530:in `call'
+puma (5.6.5) lib/puma/configuration.rb:252:in `call'
+puma (5.6.5) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.5) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.5) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.5) lib/puma/server.rb:443:in `process_client'
+puma (5.6.5) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/api/articles/new" for 172.29.0.1 at 2023-06-17 23:13:02 +0000
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"new"}
+  [1m[36mArticle Load (1.2ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` WHERE `articles`.`id` = NULL LIMIT 1[0m
+  ↳ app/controllers/articles_controller.rb:34:in `set_article'
+Completed 404 Not Found in 14ms (ActiveRecord: 6.6ms | Allocations: 2709)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Article with 'id'=new):
+  
+app/controllers/articles_controller.rb:34:in `set_article'
+Started GET "/api/articles/new" for 172.29.0.1 at 2023-06-17 23:13:30 +0000
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"new"}
+Completed 500 Internal Server Error in 0ms (ActiveRecord: 0.0ms | Allocations: 170)
+
+
+  
+NoMethodError (undefined method `rander' for #<ArticlesController:0x0000000000c580>):
+  
+app/controllers/articles_controller.rb:9:in `show'
+Started GET "/api/articles/new" for 172.29.0.1 at 2023-06-17 23:13:43 +0000
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"new"}
+Completed 204 No Content in 0ms (ActiveRecord: 0.0ms | Allocations: 87)
+
+
+Started GET "/api/articles/new" for 172.29.0.1 at 2023-06-17 23:13:49 +0000
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"new"}
+Completed 204 No Content in 0ms (ActiveRecord: 0.0ms | Allocations: 28)
+
+
+Started GET "/api/articles" for 172.29.0.1 at 2023-06-17 23:14:00 +0000
+  
+AbstractController::ActionNotFound (The action 'index' could not be found for ArticlesController):
+  
+actionpack (7.0.5) lib/abstract_controller/base.rb:146:in `process'
+actionpack (7.0.5) lib/action_controller/metal.rb:188:in `dispatch'
+actionpack (7.0.5) lib/action_controller/metal.rb:251:in `dispatch'
+actionpack (7.0.5) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (7.0.5) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (7.0.5) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (7.0.5) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (7.0.5) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (7.0.5) lib/action_dispatch/routing/route_set.rb:852:in `call'
+rack (2.2.7) lib/rack/etag.rb:27:in `call'
+rack (2.2.7) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.7) lib/rack/head.rb:12:in `call'
+activerecord (7.0.5) lib/active_record/migration.rb:603:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.5) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.5) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/show_exceptions.rb:26:in `call'
+railties (7.0.5) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.5) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.5) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (7.0.5) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (7.0.5) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (7.0.5) lib/rails/rack/logger.rb:25:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.7) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.5) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+actionpack (7.0.5) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+actionpack (7.0.5) lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.7) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/host_authorization.rb:137:in `call'
+railties (7.0.5) lib/rails/engine.rb:530:in `call'
+puma (5.6.5) lib/puma/configuration.rb:252:in `call'
+puma (5.6.5) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.5) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.5) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.5) lib/puma/server.rb:443:in `process_client'
+puma (5.6.5) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/api/articles/new" for 172.29.0.1 at 2023-06-17 23:14:13 +0000
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"new"}
+Completed 204 No Content in 0ms (ActiveRecord: 0.0ms | Allocations: 28)
+
+
+Started GET "/api/articles" for 172.29.0.1 at 2023-06-17 23:14:52 +0000
+Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (4.9ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+  ↳ app/controllers/articles_controller.rb:5:in `index'
+Completed 200 OK in 19ms (Views: 9.5ms | ActiveRecord: 8.3ms | Allocations: 6682)
+
+
+Started GET "/api/articles" for 172.29.0.1 at 2023-06-18 01:09:07 +0000
+Processing by ArticlesController#index as */*
+  Parameters: {"article"=>{}}
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+  ↳ app/controllers/articles_controller.rb:5:in `index'
+Completed 200 OK in 5ms (Views: 4.4ms | ActiveRecord: 0.8ms | Allocations: 947)
+
+
+Started POST "/api/articles" for 172.29.0.1 at 2023-06-18 01:10:41 +0000
+Processing by ArticlesController#create as */*
+  Parameters: {"article"=>{"title"=>"How to train your dragon", "description"=>"Ever wonder how?", "body"=>"Very carefully.", "tagList"=>["training", "dragons"]}}
+Completed 400 Bad Request in 1ms (ActiveRecord: 0.0ms | Allocations: 130)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: argicle):
+  
+app/controllers/articles_controller.rb:32:in `article_params'
+app/controllers/articles_controller.rb:12:in `create'
+Started POST "/api/articles" for 172.29.0.1 at 2023-06-18 01:12:09 +0000
+Processing by ArticlesController#create as */*
+  Parameters: {"article"=>{"title"=>"How to train your dragon", "description"=>"Ever wonder how?", "body"=>"Very carefully."}}
+Completed 400 Bad Request in 0ms (ActiveRecord: 0.0ms | Allocations: 105)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: argicle):
+  
+app/controllers/articles_controller.rb:32:in `article_params'
+app/controllers/articles_controller.rb:12:in `create'
+Started POST "/api/articles" for 172.29.0.1 at 2023-06-18 01:13:50 +0000
+Processing by ArticlesController#create as */*
+  Parameters: {"article"=>{"title"=>"How to train your dragon", "description"=>"Ever wonder how?", "body"=>"Very carefully."}}
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/articles_controller.rb:13:in `create'
+  [1m[36mArticle Create (0.6ms)[0m  [1m[32mINSERT INTO `articles` (`slug`, `title`, `description`, `body`, `created_at`, `updated_at`) VALUES (NULL, 'How to train your dragon', 'Ever wonder how?', 'Very carefully.', '2023-06-18 01:13:50.501327', '2023-06-18 01:13:50.501327')[0m
+  ↳ app/controllers/articles_controller.rb:13:in `create'
+  [1m[36mTRANSACTION (7.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/articles_controller.rb:13:in `create'
+Completed 200 OK in 23ms (Views: 0.5ms | ActiveRecord: 13.5ms | Allocations: 4733)
+
+
+Started GET "/api/articles" for 172.29.0.1 at 2023-06-18 02:26:45 +0000
+Processing by ArticlesController#index as */*
+  Parameters: {"article"=>{}}
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+  ↳ app/controllers/articles_controller.rb:5:in `index'
+Completed 200 OK in 4ms (Views: 3.7ms | ActiveRecord: 0.6ms | Allocations: 1138)
+
+
+Started GET "/api/articles" for 172.29.0.1 at 2023-06-18 02:28:49 +0000
+Processing by ArticlesController#index as */*
+  Parameters: {"article"=>{}}
+Completed 500 Internal Server Error in 0ms (ActiveRecord: 2.8ms | Allocations: 209)
+
+
+  
+NameError (undefined local variable or method `articles' for #<ArticlesController:0x0000000001aea0>):
+  
+app/controllers/articles_controller.rb:5:in `index'
+Started GET "/api/articles" for 172.29.0.1 at 2023-06-18 02:29:23 +0000
+Processing by ArticlesController#index as */*
+  Parameters: {"article"=>{}}
+  [1m[36mArticle Load (0.5ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+  ↳ app/controllers/articles_controller.rb:5:in `index'
+Completed 200 OK in 7ms (Views: 4.4ms | ActiveRecord: 4.1ms | Allocations: 2628)
+
+
+Started GET "/api/articles/show" for 172.29.0.1 at 2023-06-18 02:32:23 +0000
+Processing by ArticlesController#show as */*
+  Parameters: {"id"=>"show", "article"=>{}}
+Completed 200 OK in 0ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 98)
+
+
+Started GET "/api/articles/show" for 172.29.0.1 at 2023-06-18 02:32:57 +0000
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"show"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 92)
+
+
+Started GET "/api/articles/show" for 172.29.0.1 at 2023-06-18 05:43:24 +0000
+Processing by ArticlesController#show as */*
+  Parameters: {"params"=>:slug, "id"=>"show", "article"=>{}}
+  [1m[36mArticle Load (0.8ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` WHERE `articles`.`slug` = 'show' LIMIT 1[0m
+  ↳ app/controllers/articles_controller.rb:9:in `show'
+Completed 404 Not Found in 4ms (ActiveRecord: 1.0ms | Allocations: 1040)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Article with [WHERE `articles`.`slug` = ?]):
+  
+app/controllers/articles_controller.rb:9:in `show'
+Started GET "/api/articles/show?2" for 172.29.0.1 at 2023-06-18 05:45:24 +0000
+Processing by ArticlesController#show as */*
+  Parameters: {"2"=>nil, "params"=>:slug, "id"=>"show", "article"=>{}}
+  [1m[36mArticle Load (0.6ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` WHERE `articles`.`slug` = 'show' LIMIT 1[0m
+  ↳ app/controllers/articles_controller.rb:9:in `show'
+Completed 404 Not Found in 3ms (ActiveRecord: 0.6ms | Allocations: 646)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Article with [WHERE `articles`.`slug` = ?]):
+  
+app/controllers/articles_controller.rb:9:in `show'
+Started POST "/api/articles" for 172.29.0.1 at 2023-06-18 07:07:37 +0000
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  
+ActionController::RoutingError (No route matches [POST] "/api/articles"):
+  
+Started POST "/api/articles" for 172.29.0.1 at 2023-06-18 07:08:29 +0000
+  
+ActionController::RoutingError (No route matches [POST] "/api/articles"):
+  
+Started GET "/api/articles" for 172.29.0.1 at 2023-06-18 07:08:54 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/api/articles"):
+  
+Started GET "/api/articles" for 172.29.0.1 at 2023-06-18 07:11:32 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/api/articles"):
+  
+Started GET "/api/articles" for 172.29.0.1 at 2023-06-18 07:12:50 +0000
+Processing by ArticlesController#index as */*
+  Parameters: {"article"=>{}}
+  [1m[36mArticle Load (0.5ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+  ↳ app/controllers/articles_controller.rb:6:in `index'
+Completed 200 OK in 6ms (Views: 3.5ms | ActiveRecord: 4.8ms | Allocations: 2650)
+
+
+Started GET "/api/articles" for 172.29.0.1 at 2023-06-18 07:13:25 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/api/articles"):
+  
+Started GET "/api/articles" for 172.29.0.1 at 2023-06-18 07:14:15 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/api/articles"):
+  
+Started GET "/api/articles" for 172.29.0.1 at 2023-06-18 07:14:54 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/api/articles"):
+  
+Started GET "/api/articles" for 172.29.0.1 at 2023-06-18 07:16:52 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/api/articles"):
+  
+Started GET "/api/articles" for 172.29.0.1 at 2023-06-18 07:17:20 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/api/articles"):
+  
+Started GET "/api/articles" for 172.29.0.1 at 2023-06-18 07:18:18 +0000
+Processing by ArticlesController#index as */*
+  Parameters: {"article"=>{}}
+  [1m[36mArticle Load (0.5ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+  ↳ app/controllers/articles_controller.rb:6:in `index'
+Completed 200 OK in 6ms (Views: 3.6ms | ActiveRecord: 3.7ms | Allocations: 2650)
+
+
+Started GET "/api/articles" for 172.29.0.1 at 2023-06-18 07:18:42 +0000
+Processing by ArticlesController#index as */*
+  Parameters: {"article"=>{}}
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+  ↳ app/controllers/articles_controller.rb:6:in `index'
+Completed 200 OK in 8ms (Views: 6.1ms | ActiveRecord: 3.5ms | Allocations: 2611)
+
+
+Started POST "/api/articles" for 172.29.0.1 at 2023-06-18 07:19:32 +0000
+Processing by ArticlesController#create as */*
+  Parameters: {"article"=>{"title"=>"How to train your dragon", "description"=>"Ever wonder how?", "body"=>"Very carefully."}, "params"=>:slug}
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/articles_controller.rb:15:in `create'
+  [1m[36mArticle Create (0.4ms)[0m  [1m[32mINSERT INTO `articles` (`slug`, `title`, `description`, `body`, `created_at`, `updated_at`) VALUES ('how-to-train-your-dragon', 'How to train your dragon', 'Ever wonder how?', 'Very carefully.', '2023-06-18 07:19:32.488460', '2023-06-18 07:19:32.488460')[0m
+  ↳ app/controllers/articles_controller.rb:15:in `create'
+  [1m[36mTRANSACTION (10.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/articles_controller.rb:15:in `create'
+Completed 200 OK in 55ms (Views: 0.4ms | ActiveRecord: 10.7ms | Allocations: 55051)
+
+
+Started POST "/api/articles" for 172.29.0.1 at 2023-06-18 07:20:42 +0000
+Processing by ArticlesController#create as */*
+  Parameters: {"article"=>{"title"=>"How to train your dragon", "description"=>"Ever wonder how?", "body"=>"Very carefully."}, "params"=>:slug}
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/articles_controller.rb:15:in `create'
+  [1m[36mArticle Create (0.6ms)[0m  [1m[32mINSERT INTO `articles` (`slug`, `title`, `description`, `body`, `created_at`, `updated_at`) VALUES ('how_to_train_your_dragon', 'How to train your dragon', 'Ever wonder how?', 'Very carefully.', '2023-06-18 07:20:42.322813', '2023-06-18 07:20:42.322813')[0m
+  ↳ app/controllers/articles_controller.rb:15:in `create'
+  [1m[36mTRANSACTION (41.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/articles_controller.rb:15:in `create'
+Completed 200 OK in 57ms (Views: 1.5ms | ActiveRecord: 45.5ms | Allocations: 4294)
+
+
+Started POST "/api/articles" for 172.29.0.1 at 2023-06-18 07:26:52 +0000
+Processing by ArticlesController#create as */*
+  Parameters: {"article"=>{"title"=>"How to train your dragon", "description"=>"Ever wonder how?", "body"=>"Very carefully."}, "params"=>:slug}
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/articles_controller.rb:15:in `create'
+  [1m[36mArticle Create (0.6ms)[0m  [1m[32mINSERT INTO `articles` (`slug`, `title`, `description`, `body`, `created_at`, `updated_at`) VALUES ('how_to_train_your_dragon', 'How to train your dragon', 'Ever wonder how?', 'Very carefully.', '2023-06-18 07:26:52.449150', '2023-06-18 07:26:52.449150')[0m
+  ↳ app/controllers/articles_controller.rb:15:in `create'
+  [1m[36mTRANSACTION (10.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/articles_controller.rb:15:in `create'
+Completed 200 OK in 43ms (Views: 0.5ms | ActiveRecord: 11.3ms | Allocations: 3976)
+
+
+Started GET "/api/articles" for 172.29.0.1 at 2023-06-18 07:38:16 +0000
+Processing by ArticlesController#index as */*
+  Parameters: {"article"=>{}}
+  [1m[36mArticle Load (0.8ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+  ↳ app/controllers/articles_controller.rb:6:in `index'
+Completed 200 OK in 7ms (Views: 5.7ms | ActiveRecord: 1.1ms | Allocations: 2941)
+
+
+Started DELETE "/api/articles/how_to_train_your_dragon" for 172.29.0.1 at 2023-06-18 07:38:39 +0000
+Processing by ArticlesController#destroy as */*
+  Parameters: {"id"=>"how_to_train_your_dragon", "article"=>{}}
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` WHERE `articles`.`slug` IS NULL LIMIT 1[0m
+  ↳ app/controllers/articles_controller.rb:36:in `set_article'
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` WHERE `articles`.`slug` IS NULL LIMIT 1[0m
+  ↳ app/controllers/articles_controller.rb:29:in `destroy'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/articles_controller.rb:30:in `destroy'
+  [1m[36mArticle Destroy (0.5ms)[0m  [1m[31mDELETE FROM `articles` WHERE `articles`.`id` = 2[0m
+  ↳ app/controllers/articles_controller.rb:30:in `destroy'
+  [1m[36mTRANSACTION (19.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/articles_controller.rb:30:in `destroy'
+Completed 204 No Content in 28ms (ActiveRecord: 20.9ms | Allocations: 2993)
+
+
+Started GET "/api/articles" for 172.29.0.1 at 2023-06-18 07:39:00 +0000
+Processing by ArticlesController#index as */*
+  Parameters: {"article"=>{}}
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+  ↳ app/controllers/articles_controller.rb:6:in `index'
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.4ms | Allocations: 1171)
+
+
+Started DELETE "/api/articles/how_to_train_your_dragon" for 172.29.0.1 at 2023-06-18 07:39:29 +0000
+Processing by ArticlesController#destroy as */*
+  Parameters: {"id"=>"how_to_train_your_dragon", "article"=>{}}
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` WHERE `articles`.`slug` IS NULL LIMIT 1[0m
+  ↳ app/controllers/articles_controller.rb:36:in `set_article'
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` WHERE `articles`.`slug` IS NULL LIMIT 1[0m
+  ↳ app/controllers/articles_controller.rb:29:in `destroy'
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/articles_controller.rb:30:in `destroy'
+  [1m[36mArticle Destroy (0.5ms)[0m  [1m[31mDELETE FROM `articles` WHERE `articles`.`id` = 3[0m
+  ↳ app/controllers/articles_controller.rb:30:in `destroy'
+  [1m[36mTRANSACTION (18.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/articles_controller.rb:30:in `destroy'
+Completed 204 No Content in 26ms (ActiveRecord: 19.6ms | Allocations: 2732)
+
+
+Started GET "/api/articles" for 172.29.0.1 at 2023-06-18 07:39:37 +0000
+Processing by ArticlesController#index as */*
+  Parameters: {"article"=>{}}
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+  ↳ app/controllers/articles_controller.rb:6:in `index'
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.4ms | Allocations: 1065)
+
+
+Started DELETE "/api/articles/how_to_train_your_dragon" for 172.29.0.1 at 2023-06-18 07:40:37 +0000
+Processing by ArticlesController#destroy as */*
+  Parameters: {"id"=>"how_to_train_your_dragon", "article"=>{}}
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` WHERE `articles`.`slug` IS NULL LIMIT 1[0m
+  ↳ app/controllers/articles_controller.rb:36:in `set_article'
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` WHERE `articles`.`slug` IS NULL LIMIT 1[0m
+  ↳ app/controllers/articles_controller.rb:29:in `destroy'
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.4ms | Allocations: 1251)
+
+
+  
+NoMethodError (undefined method `destroy' for nil:NilClass):
+  
+app/controllers/articles_controller.rb:30:in `destroy'
+Started DELETE "/api/articles/how_to_train_your_dragon" for 172.29.0.1 at 2023-06-18 07:41:46 +0000
+Processing by ArticlesController#destroy as */*
+  Parameters: {"id"=>"how_to_train_your_dragon", "article"=>{}}
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` WHERE `articles`.`slug` IS NULL LIMIT 1[0m
+  ↳ app/controllers/articles_controller.rb:37:in `set_article'
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` WHERE `articles`.`slug` IS NULL LIMIT 1[0m
+  ↳ app/controllers/articles_controller.rb:29:in `destroy'
+Started DELETE "/api/articles/how_to_train_your_dragon" for 172.29.0.1 at 2023-06-18 07:45:27 +0000
+  [1m[36mActiveRecord::SchemaMigration Pluck (6.0ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by ArticlesController#destroy as */*
+  Parameters: {"id"=>"how_to_train_your_dragon", "article"=>{}}
+  [1m[36mArticle Load (1.3ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` WHERE `articles`.`slug` IS NULL LIMIT 1[0m
+  ↳ app/controllers/articles_controller.rb:36:in `set_article'
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` WHERE `articles`.`slug` IS NULL LIMIT 1[0m
+  ↳ app/controllers/articles_controller.rb:29:in `destroy'
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 3.8ms | Allocations: 4648)
+
+
+  
+NoMethodError (undefined method `destroy' for nil:NilClass):
+  
+app/controllers/articles_controller.rb:30:in `destroy'
+Started DELETE "/api/articles/how_to_train_your_dragon" for 172.29.0.1 at 2023-06-18 07:46:13 +0000
+Processing by ArticlesController#destroy as */*
+  Parameters: {"id"=>"how_to_train_your_dragon", "article"=>{}}
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` WHERE `articles`.`slug` IS NULL LIMIT 1[0m
+  ↳ app/controllers/articles_controller.rb:36:in `set_article'
+  [1m[36mArticle Load (0.5ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` WHERE `articles`.`slug` = 'how_to_train_your_dragon' LIMIT 1[0m
+  ↳ app/controllers/articles_controller.rb:29:in `destroy'
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/articles_controller.rb:30:in `destroy'
+  [1m[36mArticle Destroy (0.5ms)[0m  [1m[31mDELETE FROM `articles` WHERE `articles`.`id` = 5[0m
+  ↳ app/controllers/articles_controller.rb:30:in `destroy'
+  [1m[36mTRANSACTION (22.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/articles_controller.rb:30:in `destroy'
+Completed 204 No Content in 42ms (ActiveRecord: 29.2ms | Allocations: 7896)
+
+
+Started GET "/api/articles" for 172.29.0.1 at 2023-06-18 07:46:31 +0000
+Processing by ArticlesController#index as */*
+  Parameters: {"article"=>{}}
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+  ↳ app/controllers/articles_controller.rb:6:in `index'
+Completed 200 OK in 4ms (Views: 3.0ms | ActiveRecord: 0.4ms | Allocations: 1206)
+
+
+Started DELETE "/api/articles/how_to_train_your_dragon" for 172.29.0.1 at 2023-06-18 07:47:02 +0000
+Processing by ArticlesController#destroy as */*
+  Parameters: {"id"=>"how_to_train_your_dragon", "article"=>{}}
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` WHERE `articles`.`slug` IS NULL LIMIT 1[0m
+  ↳ app/controllers/articles_controller.rb:36:in `set_article'
+  [1m[36mArticle Load (0.5ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` WHERE `articles`.`slug` = 'how_to_train_your_dragon' LIMIT 1[0m
+  ↳ app/controllers/articles_controller.rb:29:in `destroy'
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/articles_controller.rb:30:in `destroy'
+  [1m[36mArticle Destroy (0.6ms)[0m  [1m[31mDELETE FROM `articles` WHERE `articles`.`id` = 6[0m
+  ↳ app/controllers/articles_controller.rb:30:in `destroy'
+  [1m[36mTRANSACTION (20.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/articles_controller.rb:30:in `destroy'
+Completed 204 No Content in 28ms (ActiveRecord: 22.0ms | Allocations: 2659)
+
+
+Started GET "/api/articles" for 172.29.0.1 at 2023-06-18 07:47:35 +0000
+Processing by ArticlesController#index as */*
+  Parameters: {"article"=>{}}
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+  ↳ app/controllers/articles_controller.rb:6:in `index'
+Completed 200 OK in 3ms (Views: 1.8ms | ActiveRecord: 0.3ms | Allocations: 840)
+
+
+Started GET "/api/articles" for 172.29.0.1 at 2023-06-18 07:47:44 +0000
+Processing by ArticlesController#index as */*
+  Parameters: {"article"=>{}}
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+  ↳ app/controllers/articles_controller.rb:6:in `index'
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.4ms | Allocations: 840)
+
+
+Started DELETE "/api/articles/how_to_train_your_dragon" for 172.29.0.1 at 2023-06-18 07:47:48 +0000
+Processing by ArticlesController#destroy as */*
+  Parameters: {"id"=>"how_to_train_your_dragon", "article"=>{}}
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` WHERE `articles`.`slug` IS NULL LIMIT 1[0m
+  ↳ app/controllers/articles_controller.rb:36:in `set_article'
+  [1m[36mArticle Load (0.5ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` WHERE `articles`.`slug` = 'how_to_train_your_dragon' LIMIT 1[0m
+  ↳ app/controllers/articles_controller.rb:29:in `destroy'
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.9ms | Allocations: 1186)
+
+
+  
+NoMethodError (undefined method `destroy' for nil:NilClass):
+  
+app/controllers/articles_controller.rb:30:in `destroy'
+Started DELETE "/api/articles/how-to-train-your-dragon" for 172.29.0.1 at 2023-06-18 07:48:08 +0000
+Processing by ArticlesController#destroy as */*
+  Parameters: {"id"=>"how-to-train-your-dragon", "article"=>{}}
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` WHERE `articles`.`slug` IS NULL LIMIT 1[0m
+  ↳ app/controllers/articles_controller.rb:36:in `set_article'
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` WHERE `articles`.`slug` = 'how-to-train-your-dragon' LIMIT 1[0m
+  ↳ app/controllers/articles_controller.rb:29:in `destroy'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/articles_controller.rb:30:in `destroy'
+  [1m[36mArticle Destroy (0.5ms)[0m  [1m[31mDELETE FROM `articles` WHERE `articles`.`id` = 4[0m
+  ↳ app/controllers/articles_controller.rb:30:in `destroy'
+  [1m[36mTRANSACTION (18.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/articles_controller.rb:30:in `destroy'
+Completed 204 No Content in 26ms (ActiveRecord: 19.6ms | Allocations: 2659)
+
+
+Started GET "/api/articles" for 172.29.0.1 at 2023-06-18 07:48:13 +0000
+Processing by ArticlesController#index as */*
+  Parameters: {"article"=>{}}
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+  ↳ app/controllers/articles_controller.rb:6:in `index'
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.4ms | Allocations: 721)
+
+
+Started POST "/api/articles" for 172.29.0.1 at 2023-06-18 07:51:33 +0000
+Processing by ArticlesController#create as */*
+  Parameters: {"article"=>{"title"=>"How to train your dragon1", "description"=>"Ever wonder how?", "body"=>"Very carefully."}, "params"=>:slug}
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/articles_controller.rb:15:in `create'
+  [1m[36mArticle Create (0.4ms)[0m  [1m[32mINSERT INTO `articles` (`slug`, `title`, `description`, `body`, `created_at`, `updated_at`) VALUES ('how_to_train_your_dragon1', 'How to train your dragon1', 'Ever wonder how?', 'Very carefully.', '2023-06-18 07:51:33.244972', '2023-06-18 07:51:33.244972')[0m
+  ↳ app/controllers/articles_controller.rb:15:in `create'
+  [1m[36mTRANSACTION (10.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/articles_controller.rb:15:in `create'
+Completed 200 OK in 35ms (Views: 0.4ms | ActiveRecord: 14.1ms | Allocations: 16263)
+
+
+Started POST "/api/articles" for 172.29.0.1 at 2023-06-18 07:51:44 +0000
+Processing by ArticlesController#create as */*
+  Parameters: {"article"=>{"title"=>"How to train your dragon2", "description"=>"Ever wonder how?", "body"=>"Very carefully."}, "params"=>:slug}
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/articles_controller.rb:15:in `create'
+  [1m[36mArticle Create (0.4ms)[0m  [1m[32mINSERT INTO `articles` (`slug`, `title`, `description`, `body`, `created_at`, `updated_at`) VALUES ('how_to_train_your_dragon2', 'How to train your dragon2', 'Ever wonder how?', 'Very carefully.', '2023-06-18 07:51:44.629366', '2023-06-18 07:51:44.629366')[0m
+  ↳ app/controllers/articles_controller.rb:15:in `create'
+  [1m[36mTRANSACTION (5.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/articles_controller.rb:15:in `create'
+Completed 200 OK in 11ms (Views: 0.3ms | ActiveRecord: 6.1ms | Allocations: 2029)
+
+
+Started GET "/api/articles" for 172.29.0.1 at 2023-06-18 07:51:55 +0000
+Processing by ArticlesController#index as */*
+  Parameters: {"article"=>{}}
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+  ↳ app/controllers/articles_controller.rb:6:in `index'
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.4ms | Allocations: 1043)
+
+
+Started DELETE "/api/articles/how-to-train-your-dragon1" for 172.29.0.1 at 2023-06-18 07:52:16 +0000
+Processing by ArticlesController#destroy as */*
+  Parameters: {"id"=>"how-to-train-your-dragon1", "article"=>{}}
+  [1m[36mArticle Load (0.5ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` WHERE `articles`.`slug` = 'how-to-train-your-dragon1' LIMIT 1[0m
+  ↳ app/controllers/articles_controller.rb:35:in `set_article'
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.5ms | Allocations: 799)
+
+
+  
+NoMethodError (undefined method `destroy' for nil:NilClass):
+  
+app/controllers/articles_controller.rb:29:in `destroy'
+Started DELETE "/api/articles/how-to-train-your-dragon1" for 172.29.0.1 at 2023-06-18 07:55:05 +0000
+Processing by ArticlesController#destroy as */*
+  Parameters: {"id"=>"how-to-train-your-dragon1", "article"=>{}}
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` WHERE `articles`.`slug` = 'how-to-train-your-dragon1' LIMIT 1[0m
+  ↳ app/controllers/articles_controller.rb:36:in `set_article'
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` WHERE `articles`.`slug` = 'how-to-train-your-dragon1' LIMIT 1[0m
+  ↳ app/controllers/articles_controller.rb:29:in `destroy'
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 2.2ms | Allocations: 1325)
+
+
+  
+NoMethodError (undefined method `destroy' for nil:NilClass):
+  
+app/controllers/articles_controller.rb:30:in `destroy'
+Started DELETE "/api/articles/how-to-train-your-dragon1" for 172.29.0.1 at 2023-06-18 07:55:48 +0000
+Processing by ArticlesController#destroy as */*
+  Parameters: {"id"=>"how-to-train-your-dragon1", "article"=>{}}
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` WHERE `articles`.`slug` IS NULL LIMIT 1[0m
+  ↳ app/controllers/articles_controller.rb:36:in `set_article'
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` WHERE `articles`.`slug` = 'how-to-train-your-dragon1' LIMIT 1[0m
+  ↳ app/controllers/articles_controller.rb:29:in `destroy'
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 3.2ms | Allocations: 1559)
+
+
+  
+NoMethodError (undefined method `destroy' for nil:NilClass):
+  
+app/controllers/articles_controller.rb:30:in `destroy'
+Started DELETE "/api/articles/how_to_train_your_dragon1" for 172.29.0.1 at 2023-06-18 07:58:31 +0000
+Processing by ArticlesController#destroy as */*
+  Parameters: {"id"=>"how_to_train_your_dragon1", "article"=>{}}
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` WHERE `articles`.`slug` = 'how_to_train_your_dragon1' LIMIT 1[0m
+  ↳ app/controllers/articles_controller.rb:34:in `set_article'
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/articles_controller.rb:28:in `destroy'
+  [1m[36mArticle Destroy (0.5ms)[0m  [1m[31mDELETE FROM `articles` WHERE `articles`.`id` = 7[0m
+  ↳ app/controllers/articles_controller.rb:28:in `destroy'
+  [1m[36mTRANSACTION (14.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/articles_controller.rb:28:in `destroy'
+Completed 204 No Content in 24ms (ActiveRecord: 18.3ms | Allocations: 3951)
+
+
+Started GET "/api/articles" for 172.29.0.1 at 2023-06-18 07:58:38 +0000
+Processing by ArticlesController#index as */*
+  Parameters: {"article"=>{}}
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+  ↳ app/controllers/articles_controller.rb:6:in `index'
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.4ms | Allocations: 913)
+
+
+Started GET "/" for 172.29.0.1 at 2023-06-18 10:33:44 +0000
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/local/bundle/gems/railties-7.0.5/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/bundle/gems/railties-7.0.5/lib/rails/templates/rails/welcome/index.html.erb (Duration: 1.7ms | Allocations: 486)
+Completed 200 OK in 12ms (Views: 5.2ms | Allocations: 3299)
+
+
+Started GET "/api/articles" for 172.29.0.1 at 2023-06-18 10:33:52 +0000
+Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+  ↳ app/controllers/articles_controller.rb:6:in `index'
+Completed 200 OK in 10ms (Views: 7.4ms | ActiveRecord: 0.8ms | Allocations: 3212)
+
+
+Started GET "/api/articles/show" for 172.29.0.1 at 2023-06-18 10:33:58 +0000
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"show"}
+  [1m[36mArticle Load (0.5ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` WHERE `articles`.`slug` = 'show' LIMIT 1[0m
+  ↳ app/controllers/articles_controller.rb:35:in `set_article'
+Completed 204 No Content in 3ms (ActiveRecord: 0.5ms | Allocations: 730)
+
+
+Started GET "/api/articles" for 172.29.0.1 at 2023-06-18 10:34:38 +0000
+Processing by ArticlesController#index as HTML
+  Parameters: {"params"=>:slug}
+  [1m[36mArticle Load (0.5ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+  ↳ app/controllers/articles_controller.rb:6:in `index'
+Completed 200 OK in 28ms (Views: 14.9ms | ActiveRecord: 7.5ms | Allocations: 3436)
+
+
+Started GET "/api/articles/show" for 172.29.0.1 at 2023-06-18 10:34:51 +0000
+Processing by ArticlesController#show as HTML
+  Parameters: {"params"=>:slug, "id"=>"show"}
+  [1m[36mArticle Load (0.6ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` WHERE `articles`.`slug` = 'show' LIMIT 1[0m
+  ↳ app/controllers/articles_controller.rb:35:in `set_article'
+Completed 204 No Content in 3ms (ActiveRecord: 0.6ms | Allocations: 753)
+
+
+Started GET "/api/articles" for 172.29.0.1 at 2023-06-18 10:35:47 +0000
+Processing by ArticlesController#index as HTML
+  Parameters: {"params"=>:slug}
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+  ↳ app/controllers/articles_controller.rb:6:in `index'
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.4ms | Allocations: 837)
+
+
+Started GET "/" for 172.29.0.1 at 2023-06-18 10:41:46 +0000
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/local/bundle/gems/railties-7.0.5/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/bundle/gems/railties-7.0.5/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.8ms | Allocations: 277)
+Completed 200 OK in 2ms (Views: 1.9ms | Allocations: 878)
+
+
+Started GET "/api/" for 172.29.0.1 at 2023-06-18 10:42:04 +0000
+  
+ActionController::RoutingError (uninitialized constant ArticleController):
+  
+Started GET "/api" for 172.29.0.1 at 2023-06-18 10:42:28 +0000
+  
+ActionController::RoutingError (uninitialized constant ArticleController):
+  
+Started GET "/api" for 172.29.0.1 at 2023-06-18 10:42:56 +0000
+Processing by ArticlesController#show as HTML
+  [1m[36mArticle Load (0.6ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` WHERE `articles`.`slug` IS NULL LIMIT 1[0m
+  ↳ app/controllers/articles_controller.rb:35:in `set_article'
+Completed 204 No Content in 6ms (ActiveRecord: 1.0ms | Allocations: 1644)
+
+
+Started GET "/api" for 172.29.0.1 at 2023-06-18 10:43:03 +0000
+Processing by ArticlesController#show as HTML
+  [1m[36mArticle Load (0.6ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` WHERE `articles`.`slug` IS NULL LIMIT 1[0m
+  ↳ app/controllers/articles_controller.rb:35:in `set_article'
+Completed 204 No Content in 3ms (ActiveRecord: 0.6ms | Allocations: 647)
+
+
+Started GET "/api" for 172.29.0.1 at 2023-06-18 10:43:38 +0000
+Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+  ↳ app/controllers/articles_controller.rb:6:in `index'
+Completed 200 OK in 10ms (Views: 4.4ms | ActiveRecord: 4.6ms | Allocations: 3492)
+
+
+Started POST "/api/articles" for 172.29.0.1 at 2023-06-18 10:44:07 +0000
+Processing by ArticlesController#create as */*
+  Parameters: {"article"=>{"title"=>"How to train your dragon3", "description"=>"Ever wonder how?", "body"=>"Very carefully."}}
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/articles_controller.rb:15:in `create'
+  [1m[36mArticle Create (0.5ms)[0m  [1m[32mINSERT INTO `articles` (`slug`, `title`, `description`, `body`, `created_at`, `updated_at`) VALUES ('how_to_train_your_dragon3', 'How to train your dragon3', 'Ever wonder how?', 'Very carefully.', '2023-06-18 10:44:07.641173', '2023-06-18 10:44:07.641173')[0m
+  ↳ app/controllers/articles_controller.rb:15:in `create'
+  [1m[36mTRANSACTION (21.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/articles_controller.rb:15:in `create'
+Completed 200 OK in 26ms (Views: 0.3ms | ActiveRecord: 22.3ms | Allocations: 2164)
+
+
+Started GET "/api" for 172.29.0.1 at 2023-06-18 10:44:16 +0000
+Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+  ↳ app/controllers/articles_controller.rb:6:in `index'
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.4ms | Allocations: 949)
+
+
+Started GET "/api/articles" for 172.29.0.1 at 2023-06-18 10:46:21 +0000
+Processing by ArticlesController#index as HTML
+  Parameters: {"params"=>:slug}
+  [1m[36mArticle Load (0.5ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+  ↳ app/controllers/articles_controller.rb:6:in `index'
+Completed 200 OK in 3ms (Views: 2.6ms | ActiveRecord: 0.5ms | Allocations: 949)
+
+
+Started GET "/api/articles" for 172.29.0.1 at 2023-06-18 10:46:34 +0000
+Processing by ArticlesController#index as HTML
+  Parameters: {"params"=>:slug}
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+  ↳ app/controllers/articles_controller.rb:6:in `index'
+Completed 200 OK in 11ms (Views: 5.0ms | ActiveRecord: 3.9ms | Allocations: 3567)
+
+
+Started GET "/api/articles" for 172.29.0.1 at 2023-06-18 10:54:06 +0000
+Processing by ArticlesController#index as */*
+  Parameters: {"params"=>:slug, "article"=>{}}
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+  ↳ app/controllers/articles_controller.rb:6:in `index'
+Completed 200 OK in 20ms (Views: 19.4ms | ActiveRecord: 0.7ms | Allocations: 2562)
+
+
+Started GET "/api/articles/how_to_train_your_dragon3" for 172.29.0.1 at 2023-06-18 10:55:05 +0000
+Processing by ArticlesController#show as */*
+  Parameters: {"params"=>:slug, "id"=>"how_to_train_your_dragon3", "article"=>{}}
+  [1m[36mArticle Load (0.7ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` WHERE `articles`.`slug` = 'how_to_train_your_dragon3' LIMIT 1[0m
+  ↳ app/controllers/articles_controller.rb:35:in `set_article'
+Completed 200 OK in 10ms (Views: 0.3ms | ActiveRecord: 0.7ms | Allocations: 905)
+
+
+Started GET "/api/articles" for 172.29.0.1 at 2023-06-18 12:51:20 +0000
+Processing by ArticlesController#index as */*
+  Parameters: {"params"=>:slug, "article"=>{}}
+  [1m[36mArticle Load (0.6ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+  ↳ app/controllers/articles_controller.rb:6:in `index'
+Completed 200 OK in 6ms (Views: 4.9ms | ActiveRecord: 0.9ms | Allocations: 2619)
+
+
+Started PUT "/api/articles/how_to_train_your_dragon3" for 172.29.0.1 at 2023-06-18 12:51:43 +0000
+Processing by ArticlesController#update as */*
+  Parameters: {"article"=>{"body"=>"With two hands"}, "params"=>:slug, "id"=>"how_to_train_your_dragon3"}
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` WHERE `articles`.`slug` = 'how_to_train_your_dragon3' LIMIT 1[0m
+  ↳ app/controllers/articles_controller.rb:36:in `set_article'
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.3ms | Allocations: 1033)
+
+
+  
+NoMethodError (undefined method `update_attributes' for #<Article id: 9, slug: "how_to_train_your_dragon3", title: "How to train your dragon3", description: "Ever wonder how?", body: "Very carefully.", created_at: "2023-06-18 10:44:07.641173000 +0000", updated_at: "2023-06-18 10:44:07.641173000 +0000">):
+  
+app/controllers/articles_controller.rb:26:in `update'
+Started PUT "/api/articles/how_to_train_your_dragon3" for 172.29.0.1 at 2023-06-18 12:57:46 +0000
+Processing by ArticlesController#update as */*
+  Parameters: {"article"=>{"body"=>"With two hands"}, "params"=>:slug, "id"=>"how_to_train_your_dragon3"}
+  [1m[36mArticle Load (0.5ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` WHERE `articles`.`slug` = 'how_to_train_your_dragon3' LIMIT 1[0m
+  ↳ app/controllers/articles_controller.rb:36:in `set_article'
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.7ms | Allocations: 2754)
+
+
+  
+NoMethodError (undefined method `body' for #<ActionController::Parameters {"body"=>"With two hands"} permitted: true>):
+  
+app/controllers/articles_controller.rb:26:in `update'
+Started GET "/api/articles" for 172.29.0.1 at 2023-06-18 13:03:50 +0000
+Processing by ArticlesController#index as */*
+  Parameters: {"params"=>:slug, "article"=>{}}
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+  ↳ app/controllers/articles_controller.rb:6:in `index'
+Completed 200 OK in 5ms (Views: 3.9ms | ActiveRecord: 0.6ms | Allocations: 2619)
+
+
+Started PUT "/api/articles/how_to_train_your_dragon3" for 172.29.0.1 at 2023-06-18 13:04:25 +0000
+Processing by ArticlesController#update as */*
+  Parameters: {"article"=>{"body"=>"With two hands"}, "params"=>:slug, "id"=>"how_to_train_your_dragon3"}
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` WHERE `articles`.`slug` = 'how_to_train_your_dragon3' LIMIT 1[0m
+  ↳ app/controllers/articles_controller.rb:36:in `set_article'
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.4ms | Allocations: 961)
+
+
+  
+NoMethodError (undefined method `update_attributes' for #<Article id: 9, slug: "how_to_train_your_dragon3", title: "How to train your dragon3", description: "Ever wonder how?", body: "Very carefully.", created_at: "2023-06-18 10:44:07.641173000 +0000", updated_at: "2023-06-18 10:44:07.641173000 +0000">):
+  
+app/controllers/articles_controller.rb:26:in `update'
+Started PUT "/api/articles/how_to_train_your_dragon3" for 172.29.0.1 at 2023-06-18 13:23:01 +0000
+Processing by ArticlesController#update as */*
+  Parameters: {"article"=>{"body"=>"With two hands"}, "params"=>:slug, "id"=>"how_to_train_your_dragon3"}
+  [1m[36mArticle Load (0.6ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` WHERE `articles`.`slug` = 'how_to_train_your_dragon3' LIMIT 1[0m
+  ↳ app/controllers/articles_controller.rb:36:in `set_article'
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 4.6ms | Allocations: 805)
+
+
+  
+NoMethodError (undefined method `update_attributes' for #<Article id: 9, slug: "how_to_train_your_dragon3", title: "How to train your dragon3", description: "Ever wonder how?", body: "Very carefully.", created_at: "2023-06-18 10:44:07.641173000 +0000", updated_at: "2023-06-18 10:44:07.641173000 +0000">):
+  
+app/controllers/articles_controller.rb:26:in `update'
+Started PUT "/api/articles/how_to_train_your_dragon3" for 172.29.0.1 at 2023-06-18 13:25:15 +0000
+Processing by ArticlesController#update as */*
+  Parameters: {"article"=>{"body"=>"With two hands"}, "params"=>:slug, "id"=>"how_to_train_your_dragon3"}
+  [1m[36mArticle Load (0.7ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` WHERE `articles`.`slug` = 'how_to_train_your_dragon3' LIMIT 1[0m
+  ↳ app/controllers/articles_controller.rb:36:in `set_article'
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/articles_controller.rb:26:in `update'
+  [1m[36mArticle Update (1.2ms)[0m  [1m[33mUPDATE `articles` SET `articles`.`body` = 'With two hands', `articles`.`updated_at` = '2023-06-18 13:25:15.363443' WHERE `articles`.`id` = 9[0m
+  ↳ app/controllers/articles_controller.rb:26:in `update'
+  [1m[36mTRANSACTION (10.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/articles_controller.rb:26:in `update'
+Completed 204 No Content in 35ms (ActiveRecord: 19.3ms | Allocations: 5061)
+
+
+Started GET "/api/articles" for 172.29.0.1 at 2023-06-18 13:25:45 +0000
+Processing by ArticlesController#index as */*
+  Parameters: {"params"=>:slug, "article"=>{}}
+  [1m[36mArticle Load (0.6ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+  ↳ app/controllers/articles_controller.rb:6:in `index'
+Completed 200 OK in 4ms (Views: 2.8ms | ActiveRecord: 0.6ms | Allocations: 1024)
+
+
+Started GET "/api/articles" for 172.29.0.1 at 2023-06-18 13:30:20 +0000
+Processing by ArticlesController#index as HTML
+  Parameters: {"params"=>:slug}
+  [1m[36mArticle Load (1.6ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+  ↳ app/controllers/articles_controller.rb:6:in `index'
+Completed 200 OK in 11ms (Views: 8.3ms | ActiveRecord: 1.6ms | Allocations: 949)
+
+
+Started GET "/api/articles/how_to_train_your_dragon2" for 172.29.0.1 at 2023-06-18 13:30:44 +0000
+Processing by ArticlesController#show as HTML
+  Parameters: {"params"=>:slug, "id"=>"how_to_train_your_dragon2"}
+  [1m[36mArticle Load (1.6ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` WHERE `articles`.`slug` = 'how_to_train_your_dragon2' LIMIT 1[0m
+  ↳ app/controllers/articles_controller.rb:36:in `set_article'
+Completed 200 OK in 10ms (Views: 1.6ms | ActiveRecord: 1.6ms | Allocations: 684)
+
+
+Started GET "/api/articles/" for 172.29.0.1 at 2023-06-18 13:49:31 +0000
+Processing by ArticlesController#index as HTML
+  Parameters: {"params"=>:slug}
+  [1m[36mArticle Load (1.6ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+  ↳ app/controllers/articles_controller.rb:6:in `index'
+Completed 200 OK in 17ms (Views: 16.4ms | ActiveRecord: 2.9ms | Allocations: 1060)
+
+
+Started GET "/api/articles/how_to_train_your_dragon3" for 172.29.0.1 at 2023-06-18 13:50:20 +0000
+Processing by ArticlesController#show as HTML
+  Parameters: {"params"=>:slug, "id"=>"how_to_train_your_dragon3"}
+  [1m[36mArticle Load (2.2ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` WHERE `articles`.`slug` = 'how_to_train_your_dragon3' LIMIT 1[0m
+  ↳ app/controllers/articles_controller.rb:36:in `set_article'
+Completed 200 OK in 12ms (Views: 1.5ms | ActiveRecord: 2.2ms | Allocations: 681)
+
+
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT GET_LOCK('5277929974492897470', 0)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (7.0ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (2.0ms)[0m  [1m[34mSELECT `ar_internal_metadata`.* FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' LIMIT 1[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT RELEASE_LOCK('5277929974492897470')[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.4ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Started GET "/api/articles" for 172.29.0.1 at 2023-06-18 13:59:25 +0000
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.5ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by ArticlesController#index as */*
+  Parameters: {"params"=>:slug, "article"=>{}}
+  [1m[36mArticle Load (1.5ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+  ↳ app/controllers/articles_controller.rb:6:in `index'
+Completed 200 OK in 25ms (Views: 11.3ms | ActiveRecord: 6.0ms | Allocations: 8070)
+
+
+Started POST "/api/articles" for 172.29.0.1 at 2023-06-18 13:59:42 +0000
+Processing by ArticlesController#create as */*
+  Parameters: {"article"=>{"title"=>"How to train your dragon4", "description"=>"Ever wonder how?", "body"=>"Very carefully."}}
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/articles_controller.rb:15:in `create'
+  [1m[36mArticle Create (0.4ms)[0m  [1m[32mINSERT INTO `articles` (`slug`, `title`, `description`, `body`, `created_at`, `updated_at`) VALUES ('how_to_train_your_dragon4', 'How to train your dragon4', 'Ever wonder how?', 'Very carefully.', '2023-06-18 13:59:42.360171', '2023-06-18 13:59:42.360171')[0m
+  ↳ app/controllers/articles_controller.rb:15:in `create'
+  [1m[36mTRANSACTION (18.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/articles_controller.rb:15:in `create'
+Completed 200 OK in 35ms (Views: 0.6ms | ActiveRecord: 18.8ms | Allocations: 14267)
+
+
+Started GET "/api/articles/how_to_train_your_dragon4" for 172.29.0.1 at 2023-06-18 14:00:04 +0000
+Processing by ArticlesController#show as */*
+  Parameters: {"params"=>:slug, "id"=>"how_to_train_your_dragon4", "article"=>{}}
+  [1m[36mArticle Load (0.5ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` WHERE `articles`.`slug` = 'how_to_train_your_dragon4' LIMIT 1[0m
+  ↳ app/controllers/articles_controller.rb:36:in `set_article'
+Completed 200 OK in 12ms (Views: 0.4ms | ActiveRecord: 0.5ms | Allocations: 2810)
+
+
+Started PUT "/api/articles/how_to_train_your_dragon4" for 172.29.0.1 at 2023-06-18 14:00:49 +0000
+Processing by ArticlesController#update as */*
+  Parameters: {"article"=>{"body"=>"With three hands"}, "params"=>:slug, "id"=>"how_to_train_your_dragon4"}
+  [1m[36mArticle Load (0.5ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` WHERE `articles`.`slug` = 'how_to_train_your_dragon4' LIMIT 1[0m
+  ↳ app/controllers/articles_controller.rb:36:in `set_article'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/articles_controller.rb:26:in `update'
+  [1m[36mArticle Update (0.5ms)[0m  [1m[33mUPDATE `articles` SET `articles`.`body` = 'With three hands', `articles`.`updated_at` = '2023-06-18 14:00:49.552998' WHERE `articles`.`id` = 10[0m
+  ↳ app/controllers/articles_controller.rb:26:in `update'
+  [1m[36mTRANSACTION (21.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/articles_controller.rb:26:in `update'
+Completed 204 No Content in 31ms (ActiveRecord: 22.4ms | Allocations: 2662)
+
+
+Started PUT "/api/articles/how_to_train_your_dragon2" for 172.29.0.1 at 2023-06-18 14:02:25 +0000
+Processing by ArticlesController#update as */*
+  Parameters: {"article"=>{"body"=>"With one hands"}, "params"=>:slug, "id"=>"how_to_train_your_dragon2"}
+  [1m[36mArticle Load (0.6ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` WHERE `articles`.`slug` = 'how_to_train_your_dragon2' LIMIT 1[0m
+  ↳ app/controllers/articles_controller.rb:37:in `set_article'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/articles_controller.rb:26:in `update'
+  [1m[36mArticle Update (0.7ms)[0m  [1m[33mUPDATE `articles` SET `articles`.`body` = 'With one hands', `articles`.`updated_at` = '2023-06-18 14:02:26.014225' WHERE `articles`.`id` = 8[0m
+  ↳ app/controllers/articles_controller.rb:26:in `update'
+  [1m[36mTRANSACTION (23.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/articles_controller.rb:26:in `update'
+Completed 200 OK in 42ms (Views: 0.5ms | ActiveRecord: 29.4ms | Allocations: 5095)
+
+
+Started GET "/api/articles/how_to_train_your_dragon2" for 172.29.0.1 at 2023-06-18 14:02:56 +0000
+Processing by ArticlesController#show as */*
+  Parameters: {"params"=>:slug, "id"=>"how_to_train_your_dragon2", "article"=>{}}
+  [1m[36mArticle Load (0.6ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` WHERE `articles`.`slug` = 'how_to_train_your_dragon2' LIMIT 1[0m
+  ↳ app/controllers/articles_controller.rb:37:in `set_article'
+Completed 200 OK in 3ms (Views: 0.4ms | ActiveRecord: 0.6ms | Allocations: 687)
+
+
+Started GET "/api/articles/how_to_train_your_dragon3" for 172.29.0.1 at 2023-06-18 14:03:08 +0000
+Processing by ArticlesController#show as */*
+  Parameters: {"params"=>:slug, "id"=>"how_to_train_your_dragon3", "article"=>{}}
+  [1m[36mArticle Load (0.7ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` WHERE `articles`.`slug` = 'how_to_train_your_dragon3' LIMIT 1[0m
+  ↳ app/controllers/articles_controller.rb:37:in `set_article'
+Completed 200 OK in 3ms (Views: 0.4ms | ActiveRecord: 0.7ms | Allocations: 695)
+
+
+Started GET "/api/articles/how_to_train_your_dragon4" for 172.29.0.1 at 2023-06-18 14:03:16 +0000
+Processing by ArticlesController#show as */*
+  Parameters: {"params"=>:slug, "id"=>"how_to_train_your_dragon4", "article"=>{}}
+  [1m[36mArticle Load (0.5ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` WHERE `articles`.`slug` = 'how_to_train_your_dragon4' LIMIT 1[0m
+  ↳ app/controllers/articles_controller.rb:37:in `set_article'
+Completed 200 OK in 3ms (Views: 0.4ms | ActiveRecord: 0.5ms | Allocations: 687)
+
+
